@@ -1,0 +1,7 @@
+# Legacy Webflow paths → new site
+/people   /work   301
+/commercial   /work   301
+/art   /work   301
+
+# Legacy singular /project/* if the old CMS used it (safe no-op if unused)
+/project/*   /work/:splat   301

@@ -1,0 +1,24 @@
+---
+/**
+ * LoveStamp — a circular "MADE WITH LOVE" seal.
+ * Purely decorative; can be dropped anywhere.
+ */
+const { size = 120, tilt = -8, text = 'MADE · WITH · LOVE · IN · MEDIA · PA · ' } = Astro.props;
+const chars = text.split('');
+const angleStep = 360 / chars.length;
+---
+<div class="love-stamp" style={`--stamp-size:${size}px; transform: rotate(${tilt}deg)`} aria-hidden="true">
+  <svg viewBox="0 0 200 200" width={size} height={size} class="spin-slow">
+    <defs>
+      <path id="lovestamp-arc" d="M 100,100 m -75,0 a 75,75 0 1,1 150,0 a 75,75 0 1,1 -150,0" />
+    </defs>
+    <circle cx="100" cy="100" r="94" fill="none" stroke="currentColor" stroke-width="3"/>
+    <circle cx="100" cy="100" r="82" fill="none" stroke="currentColor" stroke-width="1.5"/>
+    <text font-family="JetBrains Mono, monospace" font-size="15" font-weight="700" letter-spacing="4" fill="currentColor">
+      <textPath href="#lovestamp-arc">{text}{text}</textPath>
+    </text>
+  </svg>
+  <svg viewBox="0 0 24 24" class="love-stamp-heart" fill="currentColor" width={size * 0.35} height={size * 0.35}>
+    <path d="M12 21s-7-4.5-9.5-9.5C1 8 3 4 6.5 4c2 0 3.5 1 5.5 3.2C14 5 15.5 4 17.5 4 21 4 23 8 21.5 11.5 19 16.5 12 21 12 21z"/>
+  </svg>
+</div>

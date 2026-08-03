@@ -1,0 +1,21 @@
+---
+import Base from '../../layouts/Base.astro';
+import Motifs from '../../components/Motifs.astro';
+---
+<Base current="contact" title="Thanks">
+  <section class="hero" style="position:relative">
+    <Motifs seed="thanks" count={14} />
+    <div class="wrap center" style="position:relative; z-index:1">
+      <p class="eyebrow reveal">Received. Filed. Beloved.</p>
+      <h1 class="hero-title reveal">
+        <span class="wobble">Thank</span> <span class="wobble stroke">you.</span>
+      </h1>
+      <p class="hero-sub reveal">
+        Davy will get back to you soon. In the meantime, go look at some art.
+      </p>
+      <p class="mt-3 reveal">
+        <a class="btn" href="/work">Back to the work →</a>
+      </p>
+    </div>
+  </section>
+</Base>

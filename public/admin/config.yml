@@ -1,0 +1,104 @@
+# Decap CMS configuration — edit content directly from /admin.
+# After first Netlify deploy: enable Netlify Identity + Git Gateway,
+# then invite yourself as a user.
+
+backend:
+  name: git-gateway
+  branch: main
+
+# For local dev: run `npx decap-server` in another terminal, then hit /admin.
+local_backend: true
+
+media_folder: "public/images/uploads"
+public_folder: "/images/uploads"
+
+publish_mode: editorial_workflow
+
+collections:
+  - name: "projects"
+    label: "Projects"
+    label_singular: "Project"
+    folder: "content/projects"
+    create: true
+    slug: "{{slug}}"
+    identifier_field: "slug"
+    format: "json"
+    summary: "{{title}} — {{year}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string", hint: "URL segment; must be unique." }
+      - { label: "Summary", name: "summary", widget: "text", required: false }
+      - { label: "Description", name: "description", widget: "markdown", required: false }
+      - { label: "Year", name: "year", widget: "string", required: false }
+      - { label: "Categories", name: "categories", widget: "select", multiple: true, options: ["People", "Commerce", "Art"] }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - label: "Images"
+        name: "images"
+        widget: "list"
+        required: false
+        field: { label: "Image", name: "image", widget: "image" }
+      - label: "Videos"
+        name: "videos"
+        widget: "list"
+        required: false
+        field: { label: "URL", name: "url", widget: "string" }
+      - label: "External Links"
+        name: "externalLinks"
+        widget: "list"
+        required: false
+        field: { label: "URL", name: "url", widget: "string" }
+      - { label: "Source URL", name: "sourceUrl", widget: "string", required: false }
+      - label: "Source Type"
+        name: "sourceType"
+        widget: "select"
+        options: ["scraped", "authored", "generated"]
+        default: "authored"
+
+  - name: "site_settings"
+    label: "Site & Contact"
+    files:
+      - name: "site"
+        label: "Site Settings"
+        file: "content/site.json"
+        format: "json"
+        fields:
+          - label: "Site"
+            name: "site"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Tagline", name: "tagline", widget: "string" }
+              - { label: "Source URL", name: "source", widget: "string", required: false }
+              - label: "Featured project slugs (home page order)"
+                name: "featured"
+                widget: "list"
+                field: { label: "Slug", name: "slug", widget: "string" }
+              - label: "Categories"
+                name: "categories"
+                widget: "list"
+                fields:
+                  - { label: "Key", name: "key", widget: "string" }
+                  - { label: "Label", name: "label", widget: "string" }
+          - label: "Contact"
+            name: "contact"
+            widget: "object"
+            fields:
+              - { label: "Email", name: "email", widget: "string" }
+              - label: "Social links"
+                name: "socials"
+                widget: "list"
+                fields:
+                  - { label: "Label", name: "label", widget: "string" }
+                  - { label: "URL", name: "url", widget: "string" }
+
+      - name: "bio"
+        label: "Bio"
+        file: "content/bio.json"
+        format: "json"
+        fields:
+          - { label: "Short bio", name: "short", widget: "text" }
+          - { label: "Long bio", name: "long", widget: "markdown" }
+          - { label: "Generated?", name: "generated", widget: "boolean", default: true }
+          - { label: "Source quote / notes", name: "source_quote", widget: "text", required: false }

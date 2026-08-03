@@ -1,0 +1,41 @@
+---
+import globalCss from '../styles/global.css?raw';
+import Nav from '../components/Nav.astro';
+import Footer from '../components/Footer.astro';
+import Sparkles from '../components/Sparkles.astro';
+import site from '../../content/site.json';
+
+const { title, description, current, ogImage } = Astro.props;
+const pageTitle = title ? `${title} — ${site.site.title}` : site.site.title;
+const pageDesc = description || site.site.description;
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={pageDesc} />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={pageDesc} />
+    {ogImage && <meta property="og:image" content={ogImage} />}
+    <meta name="theme-color" content="#ffe600" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Space+Grotesk:wght@400;600;700&family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,700;1,9..144,500&family=JetBrains+Mono:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <style is:inline set:html={globalCss}></style>
+  </head>
+  <body>
+    <a href="#main" class="mono small" style="position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden" onfocus="this.style.cssText='position:fixed;top:8px;left:8px;background:#000;color:#ffe600;padding:8px 12px;z-index:9999;font-family:var(--font-mono)'">Skip to content</a>
+    <Nav current={current} />
+    <main id="main">
+      <slot />
+    </main>
+    <Footer />
+    <Sparkles />
+  </body>
+</html>

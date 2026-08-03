@@ -1,0 +1,140 @@
+---
+import Base from '../layouts/Base.astro';
+import Motifs from '../components/Motifs.astro';
+import Zone from '../components/Zone.astro';
+import LoveStamp from '../components/LoveStamp.astro';
+import content from '../../content/content.json';
+import bio from '../../content/bio.json';
+
+const featuredSlugs = content.site.featured;
+const projects = content.projects;
+const featured = featuredSlugs
+  .map((s) => projects.find((p) => p.slug === s))
+  .filter(Boolean);
+
+const brands = ['Hershey', 'National Geographic', 'UberFacts', 'Cadbury', 'Reese’s', 'KitKat', 'Twizzlers', 'Ice Breakers', 'Rolo', 'Bark Thins', 'Malibu Rum', 'iGavel'];
+
+const loveWords = ['hey', '♥', 'thanks for stopping in', '♥', 'made with love in Media PA', '♥', 'you’re doing great', '♥', 'stay a while', '♥'];
+---
+<Base current="home">
+  <!-- Hero -->
+  <section class="hero" style="position:relative">
+    <Motifs seed="portal" count={12} />
+    <div class="wrap hero-inner" style="position:relative">
+      <p class="eyebrow reveal">hey, i’m davy.</p>
+      <h1 class="hero-title mt-1 reveal">
+        <span class="wobble">Come</span>
+        <span class="wobble stroke">on in.</span>
+      </h1>
+      <p class="hero-sub reveal">
+        This is my little corner of the internet. I make things &mdash; photos, campaigns, essays,
+        software, the occasional argument. Different tools, same person. I&rsquo;m glad you’re here.
+      </p>
+      <div class="hero-meta reveal">
+        <a class="btn" href="/work">Show me what you’ve made &rarr;</a>
+        <a class="btn ghost" href="/bio">Tell me about you</a>
+      </div>
+    </div>
+    <div style="position:absolute; right: clamp(1rem, 4vw, 3rem); bottom: clamp(1rem, 3vw, 2rem); z-index:1">
+      <LoveStamp size={140} tilt={-8} />
+    </div>
+  </section>
+
+  <!-- Marquee: brand list -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      {[...brands, ...brands].map((b) => (
+        <span>{b} <span class="star">&#10022;</span></span>
+      ))}
+    </div>
+  </div>
+
+  <!-- Zone 01 — What this place is -->
+  <Zone stamp="♥" title="So, what is this?" variant="yellow" motifs={6} seed="thesis" tilt={-0.3}>
+    <p class="serif-lead">
+      Honestly? It’s hard to explain in a title. Some days I’m photographing a candy bar under
+      studio lights. Some days I’m making a gum bichromate print in a darkroom. Some days I’m
+      writing an essay about Dewey. Some days I’m shipping a web app at 2am.
+    </p>
+    <p class="mt-2 reveal">
+      From the outside it can look scattered. From the inside it’s pretty simple: I keep asking
+      the same question &mdash; <em>how can this feel more alive?</em> &mdash; and the answer keeps showing up in
+      different rooms. You’re about to walk through some of them.
+    </p>
+  </Zone>
+
+  <!-- Love banner -->
+  <div class="love-banner" aria-hidden="true">
+    <div class="love-banner-track">
+      {[...loveWords, ...loveWords, ...loveWords].map((w) => (
+        <span>{w === '♥' ? <span class="heart">&hearts;</span> : w}</span>
+      ))}
+    </div>
+  </div>
+
+  <!-- Zone 02 — Selected work -->
+  <Zone stamp="♥" title="Some things I’ve made." variant="lime" motifs={5} seed="collection-preview">
+    <p class="serif-lead">
+      Here’s a handful. Click into any of them &mdash; there’s usually a story attached, or at least a
+      reason it happened. The full pile lives over on the work page if you want more.
+    </p>
+    <div class="collection-strip">
+      {featured.map((p, i) => {
+        const pops = ['', 'pop-pink', '', 'pop-sky', '', 'pop-violet', '', 'pop-lime'];
+        return (
+          <a class={`card reveal ${pops[i % pops.length]}`} href={`/work/${p.slug}`}>
+            {p.thumbnail && (
+              <div class="img">
+                <img src={p.thumbnail} alt={p.title} loading="lazy" decoding="async" />
+              </div>
+            )}
+            <div class="body">
+              <p class="eyebrow">{p.categories.join(' &middot; ')}{p.year ? ` &middot; ${p.year}` : ''}</p>
+              <h3>{p.title}</h3>
+            </div>
+          </a>
+        );
+      })}
+    </div>
+    <p class="mt-3 reveal">
+      <a class="btn" href="/work">See the rest (there’s 42) &rarr;</a>
+    </p>
+  </Zone>
+
+  <!-- Zone 03 — What I actually think -->
+  <Zone stamp="♥" title="A few things I actually believe." variant="paper" motifs={7} seed="beliefs">
+    <p class="serif-lead">
+      Not a manifesto. Just some things I’ve come to think are true, in case you were wondering
+      what kind of person is on the other end of the site.
+    </p>
+    <p class="mt-2 reveal">
+      Advertising should make you feel something real, not sell you something fake. Art should
+      make you think a thought you couldn’t have thought without it. Optimism is a discipline
+      &mdash; it’s something you do, not something you have. Almost everything gets better when you
+      put the sacred next to the silly. And I’m pretty sure you’re already loved, whether or not
+      anyone’s told you today.
+    </p>
+  </Zone>
+
+  <!-- Zone 04 — Bio short -->
+  <Zone stamp="♥" title="Who’s writing this?" variant="ink" motifs={7} seed="origin">
+    <p class="serif-lead" style="color:var(--yellow-hot)">
+      That would be me. {bio.short}
+    </p>
+    <p class="mt-2 reveal">
+      <a class="btn ghost" href="/bio">The longer version &rarr;</a>
+    </p>
+  </Zone>
+
+  <!-- Zone 05 — Contact -->
+  <Zone stamp="♥" title="Want to talk?" variant="pink" motifs={6} seed="signal" tilt={-0.4}>
+    <p class="serif-lead" style="color:var(--paper)">
+      If you’re thinking about a project, or you have a question, or you just want to argue about
+      something at 2am &mdash; I’m easy to reach. I read everything that comes in.
+    </p>
+    <p class="mt-2 reveal">
+      <a class="btn" href="/contact">Say hi &rarr;</a>
+      <a class="btn ghost" href="mailto:hey@callmedavy.com" style="margin-left:0.5rem">hey@callmedavy.com</a>
+    </p>
+  </Zone>
+</Base>

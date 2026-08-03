@@ -1,0 +1,34 @@
+{
+  "title": "Reese's Artwork",
+  "slug": "reeses-artwork",
+  "summary": "",
+  "description": "",
+  "year": "",
+  "tags": [],
+  "categories": [
+    "Commerce"
+  ],
+  "thumbnail": "/images/projects/reeses-artwork-01.jpg",
+  "images": [
+    "/images/projects/reeses-artwork-01.jpg",
+    "/images/projects/reeses-artwork-02.jpg",
+    "/images/projects/reeses-artwork-03.jpg",
+    "/images/projects/reeses-artwork-04.jpg",
+    "/images/projects/reeses-artwork-05.jpg",
+    "/images/projects/reeses-artwork-06.jpg",
+    "/images/projects/reeses-artwork-07.jpg"
+  ],
+  "externalLinks": [],
+  "videos": [],
+  "sourceUrl": "https://www.callmedavy.com/portfolio/reeses-artwork",
+  "sourceType": "scraped",
+  "images_remote": [
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62b004e7670924495819a37c_IMG_0289%20copy.JPG",
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62b004f5b61c1713f6d79520_IMG_0290%20copy.JPG",
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62b005017324d966129ec9bb_IMG_0315%20copy.JPG",
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62b0228bd83107b496e28b62_Untitled_Artwork%20copy.jpg",
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62b004ed1a672b553ebd5c0e_IMG_0288%20copy.JPG",
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62b004fbb61c17733fd79523_IMG_0319%20copy.JPG",
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62b004de67092450bc19a339_IMG_0287%20copy.JPG"
+  ]
+}

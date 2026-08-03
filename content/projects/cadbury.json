@@ -1,0 +1,38 @@
+{
+  "title": "Cadbury",
+  "slug": "cadbury",
+  "summary": "",
+  "description": "",
+  "year": "",
+  "tags": [
+    "cadbury"
+  ],
+  "categories": [
+    "Commerce"
+  ],
+  "thumbnail": "/images/projects/cadbury-01.jpg",
+  "images": [
+    "/images/projects/cadbury-01.jpg",
+    "/images/projects/cadbury-02.jpg",
+    "/images/projects/cadbury-03.jpg",
+    "/images/projects/cadbury-04.jpg",
+    "/images/projects/cadbury-05.jpg",
+    "/images/projects/cadbury-06.jpg"
+  ],
+  "externalLinks": [],
+  "videos": [
+    "https://www.youtube.com/embed/R_D7JVwPDjg",
+    "https://www.youtube.com/embed/3ChFTJSDYTQ",
+    "https://www.youtube.com/embed/r0wayOU1zaM"
+  ],
+  "sourceUrl": "https://www.callmedavy.com/portfolio/cadbury",
+  "sourceType": "scraped",
+  "images_remote": [
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5c9ad28dcce07f1726ef716a_20190117_201559000_iOS.jpg",
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62b014d72ec6e70c6e89187b_IMG_0034%20copy.jpg",
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62b014ebe7e7cfca8c5e53c7_Caramello_KingSize_Unwrapped_Cut%20copy.jpg",
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5c9ad6ffcce07f3322ef8820_DSC07721%201.jpg",
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62b014df356884cf4ba657a3_DSC07700%20copy-1.jpg",
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62b022a403138266318dbf5f_MiniEggs_Bag%2BVariety%20copy.jpg"
+  ]
+}

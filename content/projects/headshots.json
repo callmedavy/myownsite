@@ -1,0 +1,48 @@
+{
+  "title": "Portraiture",
+  "slug": "headshots",
+  "summary": "",
+  "description": "",
+  "year": "2014-2024",
+  "tags": [
+    "portrait"
+  ],
+  "categories": [
+    "People"
+  ],
+  "thumbnail": "/images/projects/headshots-01.jpg",
+  "images": [
+    "/images/projects/headshots-01.jpg",
+    "/images/projects/headshots-02.jpg",
+    "/images/projects/headshots-03.jpeg",
+    "/images/projects/headshots-04.jpeg",
+    "/images/projects/headshots-05.jpg",
+    "/images/projects/headshots-06.jpeg",
+    "/images/projects/headshots-07.jpg",
+    "/images/projects/headshots-08.jpg",
+    "/images/projects/headshots-09.jpg",
+    "/images/projects/headshots-10.jpg",
+    "/images/projects/headshots-11.jpeg",
+    "/images/projects/headshots-12.jpg",
+    "/images/projects/headshots-13.jpeg"
+  ],
+  "externalLinks": [],
+  "videos": [],
+  "sourceUrl": "https://www.callmedavy.com/portfolio/headshots",
+  "sourceType": "scraped",
+  "images_remote": [
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/6852bb1621a884251911ff11_681d69c7d6731330b9fe1812_DavyMelladoPhotographyPortfolio37-p-1600.jpg",
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5b08caf3a4315abb5995047c_L1000094.jpg",
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5dcac044d986a81de2ddcd50_DSC03192.jpeg",
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/618a0bdbe02dc5e6fdaadc31_DSC03611%20copy%202.jpeg",
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/681d66c7f46e2b5038811145_DavyMelladoPhotographyPortfolio14.jpg",
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5dcac04e375b7cdb833bf2c8_DSC03273.jpeg",
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/681d66d5d9c78721c4266523_DavyMelladoPhotographyPortfolio24.jpg",
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62b00bdf8e7ede42f4fc773d_michele.jpg",
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/589f8c343452732276fe33d1_587ae0b169dd397d228dd591__DSC0053%20copy%203.jpg",
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587b0bd669dd397d228de430_WEB4.jpg",
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/618a0bd03d399a811e6b9c09_DSC06586.jpeg",
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/6852bb0fbbc511990415c440_681d69c82ff391909e9db924_DavyMelladoPhotographyPortfolio38-p-1600.jpg",
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/618a0bea3d399ab9c46b9c13_DSC01758%201.jpeg"
+  ]
+}

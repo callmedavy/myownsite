@@ -1,0 +1,116 @@
+---
+import Base from '../../layouts/Base.astro';
+import Motifs from '../../components/Motifs.astro';
+import content from '../../../content/content.json';
+
+export function getStaticPaths() {
+  const projects = content.projects;
+  return projects.map((p, i) => {
+    const prev = projects[(i - 1 + projects.length) % projects.length];
+    const next = projects[(i + 1) % projects.length];
+    return { params: { slug: p.slug }, props: { project: p, prev, next } };
+  });
+}
+
+const { project, prev, next } = Astro.props;
+
+// Assign gallery variety: pattern of full / half / third rows
+function galleryClass(i, len) {
+  const patterns = ['', 'half', 'half', '', 'third', 'third', 'third', 'half', 'half', 'two-thirds', 'third'];
+  return patterns[i % patterns.length];
+}
+
+// Convert youtube/vimeo urls to embeddable
+function embedUrl(u) {
+  if (!u) return '';
+  if (u.includes('youtube.com/embed/')) return u;
+  const yt = u.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/)([\w-]+)/);
+  if (yt) return `https://www.youtube.com/embed/${yt[1]}`;
+  const vim = u.match(/vimeo\.com\/(\d+)/);
+  if (vim) return `https://player.vimeo.com/video/${vim[1]}`;
+  return u;
+}
+const videoUrls = (project.videos || [])
+  .map(embedUrl)
+  .filter((v, i, a) => v && a.indexOf(v) === i);
+---
+<Base current="work" title={project.title} description={project.summary || `${project.title} — a project by Davy Mellado`} ogImage={project.thumbnail}>
+  <section class="project-hero" style="position:relative; overflow:hidden">
+    <Motifs seed={`p-${project.slug}`} count={5} />
+    <div class="wrap" style="position:relative; z-index:1">
+      <a href="/work" class="mono small">← Back to work</a>
+      <div class="mt-2">
+        <span class="kicker">{project.categories.join(' · ')}{project.year ? ` · ${project.year}` : ''}</span>
+      </div>
+      <h1 class="mt-1">
+        <span class="wobble">{project.title}</span>
+      </h1>
+      {project.summary && (
+        <p class="hero-sub" style="max-width:60ch">{project.summary}</p>
+      )}
+      {project.tags && project.tags.length > 0 && (
+        <div class="mt-2">
+          {project.tags.map((t) => <span class="chip">{t}</span>)}
+        </div>
+      )}
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      {project.description && (
+        <div class="bio-body reveal mb-2" set:html={project.description.split('\n').map((s) => `<p>${s}</p>`).join('')} />
+      )}
+
+      {videoUrls.length > 0 && (
+        <div class="gallery reveal" style="margin-bottom:2rem">
+          {videoUrls.map((v) => (
+            <figure class="half">
+              <div class="video-embed">
+                <iframe
+                  src={v}
+                  title={project.title + ' video'}
+                  loading="lazy"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </figure>
+          ))}
+        </div>
+      )}
+
+      {project.images && project.images.length > 0 && (
+        <div class="gallery">
+          {project.images.map((src, i) => (
+            <figure class={`reveal ${galleryClass(i, project.images.length)}`}>
+              <img src={src} alt={`${project.title} — image ${i + 1}`} loading="lazy" decoding="async" />
+            </figure>
+          ))}
+        </div>
+      )}
+
+      {project.externalLinks && project.externalLinks.length > 0 && (
+        <div class="mt-3">
+          <p class="eyebrow mb-1">Links</p>
+          <ul class="mono small" style="list-style:none; padding:0; margin:0; display:flex; gap:1rem; flex-wrap:wrap;">
+            {project.externalLinks.map((u) => (
+              <li><a class="link" href={u} rel="noopener noreferrer" target="_blank">{new URL(u).hostname.replace('www.','')} ↗</a></li>
+            ))}
+          </ul>
+        </div>
+      )}
+
+      <div class="pagination">
+        <a href={`/work/${prev.slug}`} class="prev">
+          <p class="eyebrow">← Previous</p>
+          <p class="mt-1" style="font-family:var(--font-display); font-size:1.5rem; text-transform:uppercase">{prev.title}</p>
+        </a>
+        <a href={`/work/${next.slug}`} class="next">
+          <p class="eyebrow">Next →</p>
+          <p class="mt-1" style="font-family:var(--font-display); font-size:1.5rem; text-transform:uppercase">{next.title}</p>
+        </a>
+      </div>
+    </div>
+  </section>
+</Base>

@@ -1,0 +1,28 @@
+{
+  "title": "UberFacts",
+  "slug": "uberfacts",
+  "summary": "",
+  "description": "",
+  "year": "",
+  "tags": [],
+  "categories": [
+    "Commerce"
+  ],
+  "thumbnail": "/images/projects/uberfacts-01.png",
+  "images": [
+    "/images/projects/uberfacts-01.png",
+    "/images/projects/uberfacts-02.jpg",
+    "/images/projects/uberfacts-03.png",
+    "/images/projects/uberfacts-04.jpg"
+  ],
+  "externalLinks": [],
+  "videos": [],
+  "sourceUrl": "https://www.callmedavy.com/portfolio/uberfacts",
+  "sourceType": "scraped",
+  "images_remote": [
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587ae6cb4c7492146aca2931_2CATEGORIES.png",
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/59f1df95422cdf000191af4a_Curl_Version1.jpg",
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587ae6e2439eebf6699d24ea_3SHARE.png",
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/59f1dfb3ffa06300013ba50b_Mellado5.jpg"
+  ]
+}

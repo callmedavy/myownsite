@@ -1,0 +1,22 @@
+---
+import Base from '../layouts/Base.astro';
+import Motifs from '../components/Motifs.astro';
+---
+<Base title="Lost">
+  <section class="hero" style="position:relative">
+    <Motifs seed="404" count={16} />
+    <div class="wrap center" style="position:relative; z-index:1">
+      <p class="eyebrow reveal">Error · 404 · The void whispered back</p>
+      <h1 class="hero-title reveal">
+        <span class="wobble stroke">Lost.</span>
+      </h1>
+      <p class="hero-sub reveal">
+        This page doesn't exist. But you do. That's what matters. Probably.
+      </p>
+      <p class="mt-3 reveal">
+        <a class="btn" href="/">Take me home →</a>
+        <a class="btn ghost" href="/work">Or show me the work</a>
+      </p>
+    </div>
+  </section>
+</Base>

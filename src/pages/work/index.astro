@@ -1,0 +1,86 @@
+---
+import Base from '../../layouts/Base.astro';
+import Motifs from '../../components/Motifs.astro';
+import LoveStamp from '../../components/LoveStamp.astro';
+import content from '../../../content/content.json';
+const projects = content.projects;
+const cats = content.site.categories; // {key,label}
+---
+<Base current="work" title="Work">
+  <section class="hero" style="position:relative">
+    <Motifs seed="collection-hero" count={10} />
+    <div class="wrap hero-inner" style="position:relative">
+      <p class="eyebrow reveal">{projects.length} things, roughly in one place</p>
+      <h1 class="hero-title reveal" style="font-size:clamp(3rem, 13vw, 10rem)">
+        <span class="wobble">Stuff</span> <span class="wobble stroke">i’ve made.</span>
+      </h1>
+      <p class="hero-sub reveal">
+        This is the pile. Chocolate ads, portraits of athletes, some fine art prints, a few
+        things I’m still not sure how to describe. Filter it or just scroll &mdash; either way works.
+      </p>
+    </div>
+    <div style="position:absolute; right: clamp(1rem, 4vw, 3rem); top: clamp(1rem, 4vw, 2rem); z-index:1">
+      <LoveStamp size={110} tilt={12} />
+    </div>
+  </section>
+
+  <div class="love-banner" aria-hidden="true">
+    <div class="love-banner-track">
+      {['people', '♥', 'commerce', '♥', 'art', '♥', 'thanks for looking', '♥'].concat(['people', '♥', 'commerce', '♥', 'art', '♥', 'thanks for looking', '♥']).concat(['people', '♥', 'commerce', '♥', 'art', '♥', 'thanks for looking', '♥']).map((w) => (
+        <span>{w === '♥' ? <span class="heart">&hearts;</span> : w}</span>
+      ))}
+    </div>
+  </div>
+
+  <section class="section" style="position:relative">
+    <div class="wrap" style="position:relative; z-index:1">
+      <div id="filters" class="reveal" role="tablist" aria-label="Filter the collection" style="margin-bottom:2rem">
+        <button class="chip" data-filter="all" aria-pressed="true" type="button">Everything ({projects.length})</button>
+        {cats.map((c) => {
+          const n = projects.filter((p) => p.categories.includes(c.label)).length;
+          return <button class="chip" data-filter={c.label} type="button" aria-pressed="false">{c.label} ({n})</button>
+        })}
+      </div>
+
+      <div id="grid" class="magazine">
+        {projects.map((p, i) => {
+          const pops = ['', 'pop-lime', '', 'pop-pink', '', 'pop-sky', '', 'pop-violet'];
+          return (
+            <a
+              class={`card reveal ${pops[i % pops.length]}`}
+              href={`/work/${p.slug}`}
+              data-categories={p.categories.join('|')}
+            >
+              {p.thumbnail && (
+                <div class="img">
+                  <img src={p.thumbnail} alt={p.title} loading="lazy" decoding="async" />
+                </div>
+              )}
+              <div class="body">
+                <p class="eyebrow">{p.categories.join(' \u00b7 ')}{p.year ? ` \u00b7 ${p.year}` : ''}</p>
+                <h3>{p.title}</h3>
+                {p.summary && <p class="mono small mt-1">{p.summary}</p>}
+              </div>
+            </a>
+          );
+        })}
+      </div>
+    </div>
+  </section>
+
+  <script is:inline>
+    (function () {
+      const chips = document.querySelectorAll('#filters .chip');
+      const cards = document.querySelectorAll('#grid .card');
+      chips.forEach((c) => c.addEventListener('click', () => {
+        const f = c.getAttribute('data-filter');
+        chips.forEach((x) => x.setAttribute('aria-pressed', x === c ? 'true' : 'false'));
+        cards.forEach((card) => {
+          const cats = (card.getAttribute('data-categories') || '').split('|');
+          const show = f === 'all' || cats.includes(f);
+          card.style.display = show ? '' : 'none';
+        });
+      }));
+    })();
+  </script>
+</Base>

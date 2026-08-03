@@ -1,0 +1,36 @@
+{
+  "title": "Night",
+  "slug": "night",
+  "summary": "",
+  "description": "",
+  "year": "",
+  "tags": [],
+  "categories": [
+    "Art"
+  ],
+  "thumbnail": "/images/projects/night-01.jpg",
+  "images": [
+    "/images/projects/night-01.jpg",
+    "/images/projects/night-02.jpg",
+    "/images/projects/night-03.jpg",
+    "/images/projects/night-04.jpg",
+    "/images/projects/night-05.jpg",
+    "/images/projects/night-06.jpg",
+    "/images/projects/night-07.jpg",
+    "/images/projects/night-08.jpg"
+  ],
+  "externalLinks": [],
+  "videos": [],
+  "sourceUrl": "https://www.callmedavy.com/portfolio/night",
+  "sourceType": "scraped",
+  "images_remote": [
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587aff5a439eebf6699d3c85_mellado_d_night_3.jpg",
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587aff6029772a4c23daf512_SDIM0034.jpg",
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587aff77a5507b2c51e4bb8c_SDIM0038.jpg",
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587aff7117bff618656bed5b_SDIM0037.jpg",
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587aff6c439eebf6699d3c89_SDIM0036.jpg",
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587aff36a126883e7fec7e04_mellado_d_night_1.jpg",
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587aff6636d1c47874ca9552_SDIM0035.jpg",
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587aff508535ac566595bd7e_mellado_d_night_2.jpg"
+  ]
+}

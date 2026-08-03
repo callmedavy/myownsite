@@ -1,0 +1,31 @@
+{
+  "title": "Baking Products Shoot",
+  "slug": "baking-products-shoot",
+  "summary": "",
+  "description": "",
+  "year": "",
+  "tags": [],
+  "categories": [
+    "Commerce"
+  ],
+  "thumbnail": "/images/projects/baking-products-shoot-01.jpg",
+  "images": [
+    "/images/projects/baking-products-shoot-01.jpg",
+    "/images/projects/baking-products-shoot-02.jpg",
+    "/images/projects/baking-products-shoot-03.jpg"
+  ],
+  "externalLinks": [],
+  "videos": [
+    "https://www.youtube.com/embed/S7p7oMfV9Yc",
+    "https://www.youtube.com/embed/HEhln0ASNDA",
+    "https://www.youtube.com/embed/ENkImQo4pq4",
+    "https://www.youtube.com/embed/8iiOwMZqE5k"
+  ],
+  "sourceUrl": "https://www.callmedavy.com/portfolio/baking-products-shoot",
+  "sourceType": "scraped",
+  "images_remote": [
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/6306c79080c06d976a3adf4a_CSweetFoodservice_SetPhoto_3.jpg",
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/6306c797fdf3b4a13c075032_CSweetFoodservice_SetPhoto_4.jpg",
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/6306c792cfd3b0146ab23741_CSweetFoodservice_SetPhoto_1.jpg"
+  ]
+}

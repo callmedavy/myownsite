@@ -1,0 +1,36 @@
+{
+  "title": "American Landscapes",
+  "slug": "landscapes",
+  "summary": "",
+  "description": "",
+  "year": "2008-2022",
+  "tags": [
+    "landscape"
+  ],
+  "categories": [
+    "Art"
+  ],
+  "thumbnail": "/images/projects/landscapes-01.jpg",
+  "images": [
+    "/images/projects/landscapes-01.jpg",
+    "/images/projects/landscapes-02.jpg",
+    "/images/projects/landscapes-03.jpg",
+    "/images/projects/landscapes-04.jpg",
+    "/images/projects/landscapes-05.jpg",
+    "/images/projects/landscapes-06.jpg",
+    "/images/projects/landscapes-07.jpg"
+  ],
+  "externalLinks": [],
+  "videos": [],
+  "sourceUrl": "https://www.callmedavy.com/portfolio/landscapes",
+  "sourceType": "scraped",
+  "images_remote": [
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587b120deba8f3b705c9b524__DSF1075.jpg",
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587b1233a126883e7fec87a2_postyfined.jpg",
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587b1238d8f163086cf22c81__DSF1171.jpg",
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587b1208280f99970516fecd__P3M1723%202.jpg",
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5b03226d5fbc96fcd18145df_IMG_0514.JPG",
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587b122369dd397d228de77f_10733779_10205606845475314_5929830644814241564_o.jpg",
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587b122917bff618656bf4ee__P3M0458%20copy.jpg"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "title": "Home Food",
+  "slug": "home-food",
+  "summary": "",
+  "description": "",
+  "year": "",
+  "tags": [],
+  "categories": [
+    "Art"
+  ],
+  "thumbnail": "/images/projects/home-food-01.jpg",
+  "images": [
+    "/images/projects/home-food-01.jpg",
+    "/images/projects/home-food-02.jpg",
+    "/images/projects/home-food-03.jpg",
+    "/images/projects/home-food-04.jpg",
+    "/images/projects/home-food-05.jpg",
+    "/images/projects/home-food-06.jpg",
+    "/images/projects/home-food-07.jpg",
+    "/images/projects/home-food-08.jpg"
+  ],
+  "externalLinks": [],
+  "videos": [],
+  "sourceUrl": "https://www.callmedavy.com/portfolio/home-food",
+  "sourceType": "scraped",
+  "images_remote": [
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5a303dcf520e840001c3de07_5957c9abd2d3db52ae04fec9_L1001510.jpg",
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5a303dcf01c1750001440e59_5957c9b05946be4b23b3d966_L1001511.jpg",
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5a303dd201c1750001440e5d_5957c9c52afc715251b7956c_L1001517.jpg",
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5957c9cf5946be4b23b3d971_L1001519.jpg",
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5a303dcf5ab0fd0001b7985d_5957c9b873bd8e58912604c7_L1001515.jpg",
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5a303dd074488100010108ae_5957c9bf73bd8e58912604c9_L1001516.jpg",
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5a303dd75ab0fd0001b79865_5957c9ca92e3da584124d921_L1001518.jpg",
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5957c99c73bd8e58912604c3_L1001509.jpg"
+  ]
+}

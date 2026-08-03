@@ -1,0 +1,32 @@
+{
+  "title": "Reeses",
+  "slug": "reeses",
+  "summary": "",
+  "description": "",
+  "year": "",
+  "tags": [
+    "reeses"
+  ],
+  "categories": [
+    "Commerce"
+  ],
+  "thumbnail": "/images/projects/reeses-01.jpg",
+  "images": [
+    "/images/projects/reeses-01.jpg",
+    "/images/projects/reeses-02.png",
+    "/images/projects/reeses-03.png",
+    "/images/projects/reeses-04.jpg",
+    "/images/projects/reeses-05.jpg"
+  ],
+  "externalLinks": [],
+  "videos": [],
+  "sourceUrl": "https://www.callmedavy.com/portfolio/reeses",
+  "sourceType": "scraped",
+  "images_remote": [
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62b007723249a94088b2183e_IMG_4319%20copy.jpg",
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62b0077c7324d9dee59ee0d7_0_00_34000_93744_8_34000_93744_000_Shipper_Left.png",
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62b0077f0cd76f60bf2b590a_CLUB_0_34000_85507_0_701_85507_001_Item_Left.png",
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62b010132513a566c7efb2de_3%20copy.jpg",
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62b0076fc5d9c16e557bacbc_IMG_4295%20copy.jpg"
+  ]
+}

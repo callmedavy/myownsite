@@ -1,0 +1,35 @@
+{
+  "title": "Great Sand Dunes National Park",
+  "slug": "dunes",
+  "summary": "",
+  "description": "",
+  "year": "2019",
+  "tags": [],
+  "categories": [
+    "People"
+  ],
+  "thumbnail": "/images/projects/dunes-01.jpg",
+  "images": [
+    "/images/projects/dunes-01.jpg",
+    "/images/projects/dunes-02.jpg",
+    "/images/projects/dunes-03.jpg",
+    "/images/projects/dunes-04.jpg",
+    "/images/projects/dunes-05.jpg",
+    "/images/projects/dunes-06.jpg"
+  ],
+  "externalLinks": [],
+  "videos": [
+    "https://vimeo.com/129950027",
+    "https://player.vimeo.com/video/129950027"
+  ],
+  "sourceUrl": "https://www.callmedavy.com/portfolio/dunes",
+  "sourceType": "scraped",
+  "images_remote": [
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587b09d6a5507b2c51e4c788_Broken%20and%20Loyal.jpg",
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587b09edd8f163086cf227ec_Fear%20and%20Excitement.jpg",
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587b09fb29772a4c23db04eb_Foundations%20and%20Play.jpg",
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587b09dcbf7c9f38747096d5_Guardian%20and%20Curator.jpg",
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587b09f4bf7c9f387470970a_Fleas%20and%20Dog.jpg",
+    "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587b09ff4c7492146aca4016_Positive%20and%20Negative.jpg"
+  ]
+}

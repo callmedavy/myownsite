@@ -1,0 +1,1464 @@
+{
+  "site": {
+    "title": "Call me Davy",
+    "description": "Advertising to make you feel, art to make you think. Made by Davy Mellado.",
+    "source": "https://callmedavy.webflow.io",
+    "tagline": "Polymath \u00b7 Philosopher \u00b7 Photographer",
+    "categories": [
+      {
+        "key": "people",
+        "label": "People"
+      },
+      {
+        "key": "commerce",
+        "label": "Commerce"
+      },
+      {
+        "key": "art",
+        "label": "Art"
+      }
+    ],
+    "featured": [
+      "national-geographic-",
+      "christian-pulisic-partnership",
+      "olympian-katy-ledecky",
+      "a-study-in-fireworks",
+      "belief",
+      "uberfacts",
+      "cadbury",
+      "family-legacy"
+    ]
+  },
+  "bio": {
+    "short": "Polymath. Philosopher. Photographer. Davy Mellado engineers emotion into rationality \u2014 building creative engines for brands, cameras, and communities that make reality more beautifully functional.",
+    "long": "Davy Mellado is a polymath working across photography, advertising, product, and philosophy \u2014 a National Geographic-credited shooter, a Hershey and UberFacts creative brain, the founder of CLR Wear (an automated custom-fit apparel platform), and a Johns Hopkins researcher who studies bias not as contamination but as a directional force that can de-weaponize disagreement.\n\nThey've built creative engines that produced more impact with less burnout \u2014 a proof-of-concept that efficiency can be both ethical and aesthetic. As a photographer, Davy treats the camera as an instrument of argument: visual persuasion deployed with precision, whether it's an executive portrait, a vigil, a landscape at 4am, or a chocolate bar under studio lights.\n\nRaised inside a $60M church, trained in theater, sharpened by pragmatist philosophy (Dewey, West), and always chasing juxtaposition as method \u2014 Davy makes work that treats the sacred as domestic and the everyday as sacred. Compressing complexity, revealing leverage, making reality more beautifully functional.\n\nBased in Media, Pennsylvania. Open to collaboration on the strange, the useful, and the true.",
+    "generated": true,
+    "source_quote": "Polymath | Philosopher | Photographer \u2014 scraped from callmedavy.webflow.io/bio"
+  },
+  "projects": [
+    {
+      "title": "National Geographic's \"Drugs Inc\"",
+      "slug": "national-geographic-",
+      "summary": "",
+      "description": "",
+      "year": "2011",
+      "tags": [
+        "national geographic"
+      ],
+      "categories": [
+        "People"
+      ],
+      "thumbnail": "/images/projects/national-geographic--01.jpg",
+      "images": [
+        "/images/projects/national-geographic--01.jpg",
+        "/images/projects/national-geographic--02.jpg",
+        "/images/projects/national-geographic--03.jpg",
+        "/images/projects/national-geographic--04.jpg",
+        "/images/projects/national-geographic--05.jpg",
+        "/images/projects/national-geographic--06.jpg",
+        "/images/projects/national-geographic--07.jpg"
+      ],
+      "externalLinks": [],
+      "videos": [],
+      "sourceUrl": "https://www.callmedavy.com/portfolio/national-geographic-",
+      "sourceType": "scraped",
+      "images_remote": [
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587ae41a346e85266cabfe3b_druginc-0038.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587ae44b4c7492146aca2511_druginc2-0054%20copy.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587ae442a5507b2c51e4ab99_druginc2-0064.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587ae434280f99970516e34b_druginc-0122.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587ae42f280f99970516e34a_druginc-0078.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587ae421a5507b2c51e4ab95_druginc-0051.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587ae4274c7492146aca250c_druginc-0071.jpg"
+      ]
+    },
+    {
+      "title": "Christian Pulisic Partnership",
+      "slug": "christian-pulisic-partnership",
+      "summary": "",
+      "description": "",
+      "year": "",
+      "tags": [
+        "partnership"
+      ],
+      "categories": [
+        "Commerce"
+      ],
+      "thumbnail": "/images/projects/christian-pulisic-partnership-01.jpg",
+      "images": [
+        "/images/projects/christian-pulisic-partnership-01.jpg",
+        "/images/projects/christian-pulisic-partnership-02.jpg",
+        "/images/projects/christian-pulisic-partnership-03.jpg",
+        "/images/projects/christian-pulisic-partnership-04.jpg",
+        "/images/projects/christian-pulisic-partnership-05.jpg"
+      ],
+      "externalLinks": [],
+      "videos": [],
+      "sourceUrl": "https://www.callmedavy.com/portfolio/christian-pulisic-partnership",
+      "sourceType": "scraped",
+      "images_remote": [
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/6306c50ebbb316c11726ebad_PULISIC_REESE6264.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/6306c50909d64a89e44ca5e6_PULISIC_REESE7373.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/6306c517fdf3b42f2c072ef7_PULISIC_REESE7376.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/6306c510fdf3b415fa072eb6_Chips.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/6306c51565bd550fadde61f1_PULISIC_REESE7376-2.jpg"
+      ]
+    },
+    {
+      "title": "Olympian Katy Ledecky",
+      "slug": "olympian-katy-ledecky",
+      "summary": "",
+      "description": "",
+      "year": "",
+      "tags": [
+        "olympian"
+      ],
+      "categories": [
+        "Commerce"
+      ],
+      "thumbnail": "",
+      "images": [],
+      "externalLinks": [],
+      "videos": [
+        "https://www.youtube.com/embed/SXO7py4bfSM"
+      ],
+      "sourceUrl": "https://www.callmedavy.com/portfolio/olympian-katy-ledecky",
+      "sourceType": "scraped",
+      "images_remote": []
+    },
+    {
+      "title": "A study in Fireworks",
+      "slug": "a-study-in-fireworks",
+      "summary": "",
+      "description": "",
+      "year": "",
+      "tags": [],
+      "categories": [
+        "Art"
+      ],
+      "thumbnail": "/images/projects/a-study-in-fireworks-01.jpg",
+      "images": [
+        "/images/projects/a-study-in-fireworks-01.jpg",
+        "/images/projects/a-study-in-fireworks-02.jpg",
+        "/images/projects/a-study-in-fireworks-03.jpg",
+        "/images/projects/a-study-in-fireworks-04.jpg",
+        "/images/projects/a-study-in-fireworks-05.jpg",
+        "/images/projects/a-study-in-fireworks-06.jpg",
+        "/images/projects/a-study-in-fireworks-07.jpg"
+      ],
+      "externalLinks": [],
+      "videos": [],
+      "sourceUrl": "https://www.callmedavy.com/portfolio/a-study-in-fireworks",
+      "sourceType": "scraped",
+      "images_remote": [
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62c4a3db88e2ee44967cd058_2022_07_04_0697.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62c4a3d4fcbb0fa8ca721f4a_2022_07_04_0701.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62c4a3e9be2db21f56b25130_2022_07_04_0724.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62c4a3f22481daac7de5e143_2022_07_04_0727.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62c4a3dd0563b356785500c9_2022_07_04_0700.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62c4a3e12481da26ebe5e00a_2022_07_04_0722.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62c4a3f1dbdbc801fe018a9a_2022_07_04_0725.jpg"
+      ]
+    },
+    {
+      "title": "Belief",
+      "slug": "belief",
+      "summary": "",
+      "description": "",
+      "year": "",
+      "tags": [],
+      "categories": [
+        "Art"
+      ],
+      "thumbnail": "/images/projects/belief-01.jpg",
+      "images": [
+        "/images/projects/belief-01.jpg"
+      ],
+      "externalLinks": [],
+      "videos": [],
+      "sourceUrl": "https://www.callmedavy.com/portfolio/belief",
+      "sourceType": "scraped",
+      "images_remote": [
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5a546fc3cdef280001f66801_L1002880-1.jpg"
+      ]
+    },
+    {
+      "title": "UberFacts",
+      "slug": "uberfacts",
+      "summary": "",
+      "description": "",
+      "year": "",
+      "tags": [],
+      "categories": [
+        "Commerce"
+      ],
+      "thumbnail": "/images/projects/uberfacts-01.png",
+      "images": [
+        "/images/projects/uberfacts-01.png",
+        "/images/projects/uberfacts-02.jpg",
+        "/images/projects/uberfacts-03.png",
+        "/images/projects/uberfacts-04.jpg"
+      ],
+      "externalLinks": [],
+      "videos": [],
+      "sourceUrl": "https://www.callmedavy.com/portfolio/uberfacts",
+      "sourceType": "scraped",
+      "images_remote": [
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587ae6cb4c7492146aca2931_2CATEGORIES.png",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/59f1df95422cdf000191af4a_Curl_Version1.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587ae6e2439eebf6699d24ea_3SHARE.png",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/59f1dfb3ffa06300013ba50b_Mellado5.jpg"
+      ]
+    },
+    {
+      "title": "Cadbury",
+      "slug": "cadbury",
+      "summary": "",
+      "description": "",
+      "year": "",
+      "tags": [
+        "cadbury"
+      ],
+      "categories": [
+        "Commerce"
+      ],
+      "thumbnail": "/images/projects/cadbury-01.jpg",
+      "images": [
+        "/images/projects/cadbury-01.jpg",
+        "/images/projects/cadbury-02.jpg",
+        "/images/projects/cadbury-03.jpg",
+        "/images/projects/cadbury-04.jpg",
+        "/images/projects/cadbury-05.jpg",
+        "/images/projects/cadbury-06.jpg"
+      ],
+      "externalLinks": [],
+      "videos": [
+        "https://www.youtube.com/embed/R_D7JVwPDjg",
+        "https://www.youtube.com/embed/3ChFTJSDYTQ",
+        "https://www.youtube.com/embed/r0wayOU1zaM"
+      ],
+      "sourceUrl": "https://www.callmedavy.com/portfolio/cadbury",
+      "sourceType": "scraped",
+      "images_remote": [
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5c9ad28dcce07f1726ef716a_20190117_201559000_iOS.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62b014d72ec6e70c6e89187b_IMG_0034%20copy.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62b014ebe7e7cfca8c5e53c7_Caramello_KingSize_Unwrapped_Cut%20copy.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5c9ad6ffcce07f3322ef8820_DSC07721%201.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62b014df356884cf4ba657a3_DSC07700%20copy-1.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62b022a403138266318dbf5f_MiniEggs_Bag%2BVariety%20copy.jpg"
+      ]
+    },
+    {
+      "title": "The Children of Zambia",
+      "slug": "family-legacy",
+      "summary": "",
+      "description": "",
+      "year": "2012",
+      "tags": [],
+      "categories": [
+        "People"
+      ],
+      "thumbnail": "/images/projects/family-legacy-01.jpg",
+      "images": [
+        "/images/projects/family-legacy-01.jpg",
+        "/images/projects/family-legacy-02.jpg",
+        "/images/projects/family-legacy-03.jpg",
+        "/images/projects/family-legacy-04.jpg",
+        "/images/projects/family-legacy-05.jpg",
+        "/images/projects/family-legacy-06.jpg",
+        "/images/projects/family-legacy-07.jpg"
+      ],
+      "externalLinks": [],
+      "videos": [],
+      "sourceUrl": "https://www.callmedavy.com/portfolio/family-legacy",
+      "sourceType": "scraped",
+      "images_remote": [
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/59f1ec87422cdf000191c003_587ae3a636d1c47874ca88b6__DSF1861.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/59f1ec8a8464770001a45425_587ae36fbf7c9f3874707339__DSF1863.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/59f1ec90ffa06300013bb3fc_587ae360e8f32a5e7f029036__DSF1860.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/59f1ec9679d276000136d5c7_587ae3768535ac566595b146__DSF1864.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/59f1ec898464770001a45424_587ae34e439eebf6699d218e__DSF1858.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/59f1ec8d6e24550001e41ac4_587ae356d8f163086cf2148d__DSF1859.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/59f1ec94ffa06300013bb3fd_587ae368eba8f3b705c9a6d2__DSF1862.jpg"
+      ]
+    },
+    {
+      "title": "Makers of Good NYC",
+      "slug": "makers-of-good-portraits",
+      "summary": "",
+      "description": "",
+      "year": "2021",
+      "tags": [],
+      "categories": [
+        "People"
+      ],
+      "thumbnail": "/images/projects/makers-of-good-portraits-01.jpeg",
+      "images": [
+        "/images/projects/makers-of-good-portraits-01.jpeg",
+        "/images/projects/makers-of-good-portraits-02.jpeg",
+        "/images/projects/makers-of-good-portraits-03.jpeg",
+        "/images/projects/makers-of-good-portraits-04.jpeg",
+        "/images/projects/makers-of-good-portraits-05.jpeg",
+        "/images/projects/makers-of-good-portraits-06.jpeg",
+        "/images/projects/makers-of-good-portraits-07.jpeg",
+        "/images/projects/makers-of-good-portraits-08.jpeg",
+        "/images/projects/makers-of-good-portraits-09.jpeg",
+        "/images/projects/makers-of-good-portraits-10.jpeg",
+        "/images/projects/makers-of-good-portraits-11.jpeg",
+        "/images/projects/makers-of-good-portraits-12.jpeg",
+        "/images/projects/makers-of-good-portraits-13.jpeg"
+      ],
+      "externalLinks": [],
+      "videos": [],
+      "sourceUrl": "https://www.callmedavy.com/portfolio/makers-of-good-portraits",
+      "sourceType": "scraped",
+      "images_remote": [
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5dc9d153ee803c47b1e6f617_L1006747.jpeg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5dc9d15bee803c9d93e6f6f9_L1006766.jpeg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5dc9d16466fd1bf16d933aee_L1006778.jpeg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5dc9d171cd9d01303fb9de8b_L1006799.jpeg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5dc9d176cd9d0190aeb9deb5_L1006819.jpeg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5dc9d17c3fffe21fd5f7d166_L1006840.jpeg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5dc9d180ee803c4b5fe6fec5_L1006858.jpeg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5dc9d15866fd1b2f3b933aa0_L1006758.jpeg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5dc9d15daf88068153355c5d_L1006769.jpeg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5dc9d16f3fffe27708f7d083_L1006790.jpeg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5dc9d173ee803c5498e6fe59_L1006816.jpeg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5dc9d179052d6732a8ae20eb_L1006831.jpeg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5dc9d17ecd9d018394b9dee3_L1006853.jpeg"
+      ]
+    },
+    {
+      "title": "Great Sand Dunes National Park",
+      "slug": "dunes",
+      "summary": "",
+      "description": "",
+      "year": "2019",
+      "tags": [],
+      "categories": [
+        "People"
+      ],
+      "thumbnail": "/images/projects/dunes-01.jpg",
+      "images": [
+        "/images/projects/dunes-01.jpg",
+        "/images/projects/dunes-02.jpg",
+        "/images/projects/dunes-03.jpg",
+        "/images/projects/dunes-04.jpg",
+        "/images/projects/dunes-05.jpg",
+        "/images/projects/dunes-06.jpg"
+      ],
+      "externalLinks": [],
+      "videos": [
+        "https://vimeo.com/129950027",
+        "https://player.vimeo.com/video/129950027"
+      ],
+      "sourceUrl": "https://www.callmedavy.com/portfolio/dunes",
+      "sourceType": "scraped",
+      "images_remote": [
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587b09d6a5507b2c51e4c788_Broken%20and%20Loyal.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587b09edd8f163086cf227ec_Fear%20and%20Excitement.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587b09fb29772a4c23db04eb_Foundations%20and%20Play.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587b09dcbf7c9f38747096d5_Guardian%20and%20Curator.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587b09f4bf7c9f387470970a_Fleas%20and%20Dog.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587b09ff4c7492146aca4016_Positive%20and%20Negative.jpg"
+      ]
+    },
+    {
+      "title": "A Journey in Soundscapes",
+      "slug": "ecosono",
+      "summary": "",
+      "description": "",
+      "year": "2017",
+      "tags": [],
+      "categories": [
+        "People"
+      ],
+      "thumbnail": "/images/projects/ecosono-01.jpeg",
+      "images": [
+        "/images/projects/ecosono-01.jpeg",
+        "/images/projects/ecosono-02.jpeg",
+        "/images/projects/ecosono-03.jpeg",
+        "/images/projects/ecosono-04.jpg",
+        "/images/projects/ecosono-05.jpg",
+        "/images/projects/ecosono-06.jpeg",
+        "/images/projects/ecosono-07.jpeg"
+      ],
+      "externalLinks": [
+        "http://www.ecosono.org/donate/"
+      ],
+      "videos": [],
+      "sourceUrl": "https://www.callmedavy.com/portfolio/ecosono",
+      "sourceType": "scraped",
+      "images_remote": [
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5dcacf1c375b7cd5413c81e1__P3M1682.jpeg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5dcacf21ddf2494501ac7586__P3M1673.jpeg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5dcacf26d986a87588de7ae6__P3M1588.jpeg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5dcacf75778967789dd9ca02_fhg.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5dcacee7375b7c4cf53c802c_f.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5dcacf23d986a8ad95de7ad8__P3M1627.jpeg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5dcacf294d247f0615830726__P3M1600.jpeg"
+      ]
+    },
+    {
+      "title": "El Mac, Aerosol Exalted",
+      "slug": "fine-arts-center-colorado",
+      "summary": "",
+      "description": "",
+      "year": "2016",
+      "tags": [],
+      "categories": [
+        "People"
+      ],
+      "thumbnail": "/images/projects/fine-arts-center-colorado-01.jpeg",
+      "images": [
+        "/images/projects/fine-arts-center-colorado-01.jpeg",
+        "/images/projects/fine-arts-center-colorado-02.jpeg",
+        "/images/projects/fine-arts-center-colorado-03.jpeg",
+        "/images/projects/fine-arts-center-colorado-04.jpeg",
+        "/images/projects/fine-arts-center-colorado-05.jpeg",
+        "/images/projects/fine-arts-center-colorado-06.jpeg",
+        "/images/projects/fine-arts-center-colorado-07.jpeg",
+        "/images/projects/fine-arts-center-colorado-08.jpeg",
+        "/images/projects/fine-arts-center-colorado-09.jpeg",
+        "/images/projects/fine-arts-center-colorado-10.jpeg"
+      ],
+      "externalLinks": [],
+      "videos": [],
+      "sourceUrl": "https://www.callmedavy.com/portfolio/fine-arts-center-colorado",
+      "sourceType": "scraped",
+      "images_remote": [
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5dcacb26c897153f70159c83_facjam009.jpeg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5dcacb2973e13fc9134674da_facjam013.jpeg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5dcacb307d1b933aeaadb512_facjam029.jpeg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5dcacb350848bf4001caa99e_facjam015.jpeg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5dcacbe3c897154e0e159e87__DSC1416.jpeg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5dcacb204d247f805c82c7ab_facjam003.jpeg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5dcacb2d9a526c4b1434623f_facjam020.jpeg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5dcacb320848bff57fcaa989_facjam030.jpeg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5dcacb4fc897154ac1159d34_facjam024.jpeg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5dcacbe50848bf1ccdcaba57__DSC1406.jpeg"
+      ]
+    },
+    {
+      "title": "Vigil for Officer Jake Loflin",
+      "slug": "officer-vigil-colorado-springs",
+      "summary": "",
+      "description": "",
+      "year": "2015",
+      "tags": [],
+      "categories": [
+        "People"
+      ],
+      "thumbnail": "/images/projects/officer-vigil-colorado-springs-01.jpeg",
+      "images": [
+        "/images/projects/officer-vigil-colorado-springs-01.jpeg",
+        "/images/projects/officer-vigil-colorado-springs-02.jpeg",
+        "/images/projects/officer-vigil-colorado-springs-03.jpeg",
+        "/images/projects/officer-vigil-colorado-springs-04.jpeg",
+        "/images/projects/officer-vigil-colorado-springs-05.jpeg",
+        "/images/projects/officer-vigil-colorado-springs-06.jpg"
+      ],
+      "externalLinks": [],
+      "videos": [],
+      "sourceUrl": "https://www.callmedavy.com/portfolio/officer-vigil-colorado-springs",
+      "sourceType": "scraped",
+      "images_remote": [
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5dcad5404a71e140b5e5f538_DSC00022.jpeg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5dcad547375b7c081f3cbd7b_DSC00108.jpeg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5dcad556e87a1df6436a1d0f_DSC00048.jpeg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5dcad5440848bf0072cb4a63_DSC00066.jpeg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5dcad53d375b7ce02f3cbd1a_DSC00034.jpeg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5dcad752c8971576c1160c90_ff.jpg"
+      ]
+    },
+    {
+      "title": "Portraiture",
+      "slug": "headshots",
+      "summary": "",
+      "description": "",
+      "year": "2014-2024",
+      "tags": [
+        "portrait"
+      ],
+      "categories": [
+        "People"
+      ],
+      "thumbnail": "/images/projects/headshots-01.jpg",
+      "images": [
+        "/images/projects/headshots-01.jpg",
+        "/images/projects/headshots-02.jpg",
+        "/images/projects/headshots-03.jpeg",
+        "/images/projects/headshots-04.jpeg",
+        "/images/projects/headshots-05.jpg",
+        "/images/projects/headshots-06.jpeg",
+        "/images/projects/headshots-07.jpg",
+        "/images/projects/headshots-08.jpg",
+        "/images/projects/headshots-09.jpg",
+        "/images/projects/headshots-10.jpg",
+        "/images/projects/headshots-11.jpeg",
+        "/images/projects/headshots-12.jpg",
+        "/images/projects/headshots-13.jpeg"
+      ],
+      "externalLinks": [],
+      "videos": [],
+      "sourceUrl": "https://www.callmedavy.com/portfolio/headshots",
+      "sourceType": "scraped",
+      "images_remote": [
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/6852bb1621a884251911ff11_681d69c7d6731330b9fe1812_DavyMelladoPhotographyPortfolio37-p-1600.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5b08caf3a4315abb5995047c_L1000094.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5dcac044d986a81de2ddcd50_DSC03192.jpeg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/618a0bdbe02dc5e6fdaadc31_DSC03611%20copy%202.jpeg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/681d66c7f46e2b5038811145_DavyMelladoPhotographyPortfolio14.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5dcac04e375b7cdb833bf2c8_DSC03273.jpeg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/681d66d5d9c78721c4266523_DavyMelladoPhotographyPortfolio24.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62b00bdf8e7ede42f4fc773d_michele.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/589f8c343452732276fe33d1_587ae0b169dd397d228dd591__DSC0053%20copy%203.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587b0bd669dd397d228de430_WEB4.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/618a0bd03d399a811e6b9c09_DSC06586.jpeg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/6852bb0fbbc511990415c440_681d69c82ff391909e9db924_DavyMelladoPhotographyPortfolio38-p-1600.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/618a0bea3d399ab9c46b9c13_DSC01758%201.jpeg"
+      ]
+    },
+    {
+      "title": "The Set",
+      "slug": "bts-los-angeles",
+      "summary": "",
+      "description": "",
+      "year": "2014",
+      "tags": [],
+      "categories": [
+        "People"
+      ],
+      "thumbnail": "/images/projects/bts-los-angeles-01.jpeg",
+      "images": [
+        "/images/projects/bts-los-angeles-01.jpeg",
+        "/images/projects/bts-los-angeles-02.jpeg",
+        "/images/projects/bts-los-angeles-03.jpeg",
+        "/images/projects/bts-los-angeles-04.jpeg",
+        "/images/projects/bts-los-angeles-05.jpeg",
+        "/images/projects/bts-los-angeles-06.jpeg",
+        "/images/projects/bts-los-angeles-07.jpeg",
+        "/images/projects/bts-los-angeles-08.jpeg"
+      ],
+      "externalLinks": [],
+      "videos": [],
+      "sourceUrl": "https://www.callmedavy.com/portfolio/bts-los-angeles",
+      "sourceType": "scraped",
+      "images_remote": [
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5dcad085375b7c79dd3c8968_000015920001.jpeg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5dcad08dd986a87b2bde8754_000015920003.jpeg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5dcad0910848bf0bc6cafd7b_000015920007.jpeg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5dcad098375b7cda583c8985_000015930009.jpeg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5dcad08ac89715027015cdc7_000015920002.jpeg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5dcad08fddf2497801ac8999_000015920005.jpeg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5dcad0827789673d38d9ea4c_000015930008.jpeg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5dcad099c897154edd15ce37_000015930010%20copy.jpeg"
+      ]
+    },
+    {
+      "title": "American Landscapes",
+      "slug": "landscapes",
+      "summary": "",
+      "description": "",
+      "year": "2008-2022",
+      "tags": [
+        "landscape"
+      ],
+      "categories": [
+        "Art"
+      ],
+      "thumbnail": "/images/projects/landscapes-01.jpg",
+      "images": [
+        "/images/projects/landscapes-01.jpg",
+        "/images/projects/landscapes-02.jpg",
+        "/images/projects/landscapes-03.jpg",
+        "/images/projects/landscapes-04.jpg",
+        "/images/projects/landscapes-05.jpg",
+        "/images/projects/landscapes-06.jpg",
+        "/images/projects/landscapes-07.jpg"
+      ],
+      "externalLinks": [],
+      "videos": [],
+      "sourceUrl": "https://www.callmedavy.com/portfolio/landscapes",
+      "sourceType": "scraped",
+      "images_remote": [
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587b120deba8f3b705c9b524__DSF1075.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587b1233a126883e7fec87a2_postyfined.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587b1238d8f163086cf22c81__DSF1171.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587b1208280f99970516fecd__P3M1723%202.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5b03226d5fbc96fcd18145df_IMG_0514.JPG",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587b122369dd397d228de77f_10733779_10205606845475314_5929830644814241564_o.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587b122917bff618656bf4ee__P3M0458%20copy.jpg"
+      ]
+    },
+    {
+      "title": "A compression of time",
+      "slug": "oldnew",
+      "summary": "",
+      "description": "",
+      "year": "",
+      "tags": [],
+      "categories": [
+        "Art"
+      ],
+      "thumbnail": "/images/projects/oldnew-01.jpg",
+      "images": [
+        "/images/projects/oldnew-01.jpg",
+        "/images/projects/oldnew-02.jpg",
+        "/images/projects/oldnew-03.jpg",
+        "/images/projects/oldnew-04.jpg",
+        "/images/projects/oldnew-05.jpg",
+        "/images/projects/oldnew-06.jpg",
+        "/images/projects/oldnew-07.jpg",
+        "/images/projects/oldnew-08.jpg",
+        "/images/projects/oldnew-09.jpg"
+      ],
+      "externalLinks": [],
+      "videos": [],
+      "sourceUrl": "https://www.callmedavy.com/portfolio/oldnew",
+      "sourceType": "scraped",
+      "images_remote": [
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/59e89ca2a1b456000191d4e5__P3M1154.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/59e89cac30dfca0001a7b5ca__P3M1156.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/59e89cb1a1b456000191d4ed__P3M1158.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/59e89cb6e1efb00001aa2dc3__P3M1160.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/59e89cbbe108440001f222e3__P3M1162.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/59e89caae1efb00001aa2dba__P3M1155.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/59e89cb0e1efb00001aa2dbe__P3M1157.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/59e89cb4e1efb00001aa2dc1__P3M1159.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/59e89c99e108440001f222d2__P3M1161.jpg"
+      ]
+    },
+    {
+      "title": "A Futurist Present",
+      "slug": "a-futurist-present",
+      "summary": "",
+      "description": "",
+      "year": "",
+      "tags": [],
+      "categories": [
+        "Art"
+      ],
+      "thumbnail": "/images/projects/a-futurist-present-01.jpeg",
+      "images": [
+        "/images/projects/a-futurist-present-01.jpeg",
+        "/images/projects/a-futurist-present-02.jpeg",
+        "/images/projects/a-futurist-present-03.jpeg",
+        "/images/projects/a-futurist-present-04.jpeg",
+        "/images/projects/a-futurist-present-05.jpeg",
+        "/images/projects/a-futurist-present-06.jpeg",
+        "/images/projects/a-futurist-present-07.jpeg",
+        "/images/projects/a-futurist-present-08.jpeg",
+        "/images/projects/a-futurist-present-09.jpeg"
+      ],
+      "externalLinks": [],
+      "videos": [],
+      "sourceUrl": "https://www.callmedavy.com/portfolio/a-futurist-present",
+      "sourceType": "scraped",
+      "images_remote": [
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5a1f742409e27d0001f38eb8_L1002403.jpeg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5a1f74297202a80001004a93_L1002405.jpeg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5a1f743112bcfc0001cdeec8_L1002407.jpeg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5a1f743b70a52a000169402d_L1002409.jpeg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5a1f74417202a80001004a99_L1002411.jpeg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5a1f74269b4dd70001ca8fd2_L1002404.jpeg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5a1f742d70a52a0001694027_L1002406.jpeg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5a1f743712bcfc0001cdeeca_L1002408.jpeg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5a1f743d9b4dd70001ca8fdb_L1002410.jpeg"
+      ]
+    },
+    {
+      "title": "Assorted Brands",
+      "slug": "assorted-brands",
+      "summary": "",
+      "description": "",
+      "year": "",
+      "tags": [],
+      "categories": [
+        "Commerce"
+      ],
+      "thumbnail": "/images/projects/assorted-brands-01.jpg",
+      "images": [
+        "/images/projects/assorted-brands-01.jpg",
+        "/images/projects/assorted-brands-02.png",
+        "/images/projects/assorted-brands-03.jpg",
+        "/images/projects/assorted-brands-04.jpg",
+        "/images/projects/assorted-brands-05.jpg",
+        "/images/projects/assorted-brands-06.jpg",
+        "/images/projects/assorted-brands-07.jpg"
+      ],
+      "externalLinks": [],
+      "videos": [],
+      "sourceUrl": "https://www.callmedavy.com/portfolio/assorted-brands",
+      "sourceType": "scraped",
+      "images_remote": [
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62b01301bb3c55aae54d4d32_4%20copy.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62b012bb4b532a555ed3fa09_Screen%20Shot%202022-06-20%20at%202.23.08%20AM.png",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62b0122bda543116467607c1_IMG_0507%20copy.JPG",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62b0123d3249a97e23b25595_MOD%20copy.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62b022ae3249a9d6bfb2b7b5_5b3beebf2cc74300eea19055_IMG_2407.JPG",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62b0121cd2f730e125754b2b_DSC06423%20copy.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62b01255bb3c5514874d487d_JR%20copy.jpg"
+      ]
+    },
+    {
+      "title": "Baking Products Shoot",
+      "slug": "baking-products-shoot",
+      "summary": "",
+      "description": "",
+      "year": "",
+      "tags": [],
+      "categories": [
+        "Commerce"
+      ],
+      "thumbnail": "/images/projects/baking-products-shoot-01.jpg",
+      "images": [
+        "/images/projects/baking-products-shoot-01.jpg",
+        "/images/projects/baking-products-shoot-02.jpg",
+        "/images/projects/baking-products-shoot-03.jpg"
+      ],
+      "externalLinks": [],
+      "videos": [
+        "https://www.youtube.com/embed/S7p7oMfV9Yc",
+        "https://www.youtube.com/embed/HEhln0ASNDA",
+        "https://www.youtube.com/embed/ENkImQo4pq4",
+        "https://www.youtube.com/embed/8iiOwMZqE5k"
+      ],
+      "sourceUrl": "https://www.callmedavy.com/portfolio/baking-products-shoot",
+      "sourceType": "scraped",
+      "images_remote": [
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/6306c79080c06d976a3adf4a_CSweetFoodservice_SetPhoto_3.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/6306c797fdf3b4a13c075032_CSweetFoodservice_SetPhoto_4.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/6306c792cfd3b0146ab23741_CSweetFoodservice_SetPhoto_1.jpg"
+      ]
+    },
+    {
+      "title": "Bark Thins",
+      "slug": "bark-thins",
+      "summary": "",
+      "description": "",
+      "year": "",
+      "tags": [],
+      "categories": [
+        "Commerce"
+      ],
+      "thumbnail": "/images/projects/bark-thins-01.jpg",
+      "images": [
+        "/images/projects/bark-thins-01.jpg",
+        "/images/projects/bark-thins-02.jpg",
+        "/images/projects/bark-thins-03.jpg",
+        "/images/projects/bark-thins-04.jpg",
+        "/images/projects/bark-thins-05.jpg",
+        "/images/projects/bark-thins-06.jpg"
+      ],
+      "externalLinks": [],
+      "videos": [],
+      "sourceUrl": "https://www.callmedavy.com/portfolio/bark-thins",
+      "sourceType": "scraped",
+      "images_remote": [
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5e8c85ac08da7e36b2eb7580_COSTCO_8_59686_00485_3_770_00485_001_Item_Front%20copy.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62b0104c450de181ad1767ba_3(1)%20copy.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62b010661a672b786bbda65a_TRIO%20copy.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5e8c824e6cd564b208ecd1a8_trunk2.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62b010582ec6e7245688f736_DSC06239%20copy.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62b01189ef1a0b58f83ffe2b_Untitled%2011-Animated%20Image%20(Small)%20copy.jpg"
+      ]
+    },
+    {
+      "title": "Continental Players",
+      "slug": "continental-players",
+      "summary": "",
+      "description": "",
+      "year": "",
+      "tags": [],
+      "categories": [
+        "Commerce"
+      ],
+      "thumbnail": "/images/projects/continental-players-01.jpg",
+      "images": [
+        "/images/projects/continental-players-01.jpg",
+        "/images/projects/continental-players-02.jpg",
+        "/images/projects/continental-players-03.jpg",
+        "/images/projects/continental-players-04.jpg",
+        "/images/projects/continental-players-05.jpg",
+        "/images/projects/continental-players-06.jpg"
+      ],
+      "externalLinks": [],
+      "videos": [],
+      "sourceUrl": "https://www.callmedavy.com/portfolio/continental-players",
+      "sourceType": "scraped",
+      "images_remote": [
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587ae4e9bf7c9f3874707341_differentlogo.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587ae4cfbf7c9f3874707340__DSC7265_edit.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587ae4f3e47fcb89226227ab_VecPoster.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587ae4d6e8f32a5e7f029047__DSC7289_edit.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587ae4e329772a4c23dae915_Concepts2.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587ae4fa439eebf6699d2225_NHAH.jpg"
+      ]
+    },
+    {
+      "title": "Head Over",
+      "slug": "photograms",
+      "summary": "",
+      "description": "",
+      "year": "",
+      "tags": [],
+      "categories": [
+        "Art"
+      ],
+      "thumbnail": "/images/projects/photograms-01.jpg",
+      "images": [
+        "/images/projects/photograms-01.jpg",
+        "/images/projects/photograms-02.jpg",
+        "/images/projects/photograms-03.jpg",
+        "/images/projects/photograms-04.jpg",
+        "/images/projects/photograms-05.jpg",
+        "/images/projects/photograms-06.jpg"
+      ],
+      "externalLinks": [],
+      "videos": [],
+      "sourceUrl": "https://www.callmedavy.com/portfolio/photograms",
+      "sourceType": "scraped",
+      "images_remote": [
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587b0a3e69dd397d228de419_200px.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587b0a4fa5507b2c51e4c78e_IMG_0905.JPG",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587b0a4336d1c47874ca97bb_IMG_0902.JPG",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587b0a4b8535ac566595bf0d_IMG_0903.JPG",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587b0a54d8f163086cf22817_IMG_0904.JPG",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587b0a5917bff618656bf3e6_IMG_0906.JPG"
+      ]
+    },
+    {
+      "title": "Heroes are tainted",
+      "slug": "heroes-are-tainted",
+      "summary": "",
+      "description": "",
+      "year": "",
+      "tags": [],
+      "categories": [
+        "Art"
+      ],
+      "thumbnail": "/images/projects/heroes-are-tainted-01.jpeg",
+      "images": [
+        "/images/projects/heroes-are-tainted-01.jpeg",
+        "/images/projects/heroes-are-tainted-02.jpeg",
+        "/images/projects/heroes-are-tainted-03.jpeg",
+        "/images/projects/heroes-are-tainted-04.jpeg",
+        "/images/projects/heroes-are-tainted-05.jpeg",
+        "/images/projects/heroes-are-tainted-06.jpeg"
+      ],
+      "externalLinks": [],
+      "videos": [],
+      "sourceUrl": "https://www.callmedavy.com/portfolio/heroes-are-tainted",
+      "sourceType": "scraped",
+      "images_remote": [
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587b0d3bbf7c9f387470976e_daV_TH0%20copy.jpeg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587b0d45bf7c9f387470976f_daV_TH2%20copy.jpeg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587b0d50a5507b2c51e4cc39_daV_TH4%20copy.jpeg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587b0d35a5507b2c51e4cc38_daV_TH1%20copy.jpeg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587b0d4beba8f3b705c9b374_daV_TH3%20copy.jpeg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587b0d55a5507b2c51e4cc3a_daV_TH5%20copy.jpeg"
+      ]
+    },
+    {
+      "title": "Hershey Chocolate World - Hershey",
+      "slug": "hershey-chocolate-world",
+      "summary": "",
+      "description": "",
+      "year": "",
+      "tags": [
+        "hershey"
+      ],
+      "categories": [
+        "Commerce"
+      ],
+      "thumbnail": "/images/projects/hershey-chocolate-world-01.jpeg",
+      "images": [
+        "/images/projects/hershey-chocolate-world-01.jpeg",
+        "/images/projects/hershey-chocolate-world-02.jpeg",
+        "/images/projects/hershey-chocolate-world-03.jpeg",
+        "/images/projects/hershey-chocolate-world-04.jpeg",
+        "/images/projects/hershey-chocolate-world-05.jpeg",
+        "/images/projects/hershey-chocolate-world-06.jpeg",
+        "/images/projects/hershey-chocolate-world-07.jpeg",
+        "/images/projects/hershey-chocolate-world-08.jpeg"
+      ],
+      "externalLinks": [],
+      "videos": [],
+      "sourceUrl": "https://www.callmedavy.com/portfolio/hershey-chocolate-world",
+      "sourceType": "scraped",
+      "images_remote": [
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5dcad7d573e13f65e7470956_5dc9d02d052d6761f5ae0b2a_DSC06082.jpeg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5dcad7da4d247fc087834149_5dc9d01c052d67429eae0a7a_DSC05609.jpeg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5dcad7df4d247fd150834169_5dc9d024af88064f21354f02_DSC05790.jpeg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5dcad7e43a4aa42f46e84490_5dc9d0203fffe2cb93f7b5ea_DSC05427.jpeg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5dcad7d873e13f508a470960_5dc9d02aaf88062a1e354f2e_DSC05937.jpeg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5dcad7ddcf9599a7b7f43144_5dc9d02fcd9d010cb7b9cdf1_DSC06252.jpeg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5dcad7e1d986a836e2df27f2_5dc9d027ee803c8b21e6dc3a_DSC05823.jpeg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5dcad7e79a526c4b18355068_5dc9d03166fd1b58339322ab_DSC06433.jpeg"
+      ]
+    },
+    {
+      "title": "HERSHEYS & DC Discover New Voices",
+      "slug": "hersheys-dc-discover-new-voices",
+      "summary": "",
+      "description": "",
+      "year": "",
+      "tags": [
+        "hershey"
+      ],
+      "categories": [
+        "Commerce"
+      ],
+      "thumbnail": "/images/projects/hersheys-dc-discover-new-voices-01.jpg",
+      "images": [
+        "/images/projects/hersheys-dc-discover-new-voices-01.jpg",
+        "/images/projects/hersheys-dc-discover-new-voices-02.jpg"
+      ],
+      "externalLinks": [],
+      "videos": [
+        "https://www.youtube.com/embed/WaXCRU-h4P4"
+      ],
+      "sourceUrl": "https://www.callmedavy.com/portfolio/hersheys-dc-discover-new-voices",
+      "sourceType": "scraped",
+      "images_remote": [
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62aff58404fb1bf84cdc9010__Hero_POV_Tablet_App_mWeb_2496x1398.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62aff588d95a846af143afa8_PrintAd.jpg"
+      ]
+    },
+    {
+      "title": "Home Food",
+      "slug": "home-food",
+      "summary": "",
+      "description": "",
+      "year": "",
+      "tags": [],
+      "categories": [
+        "Art"
+      ],
+      "thumbnail": "/images/projects/home-food-01.jpg",
+      "images": [
+        "/images/projects/home-food-01.jpg",
+        "/images/projects/home-food-02.jpg",
+        "/images/projects/home-food-03.jpg",
+        "/images/projects/home-food-04.jpg",
+        "/images/projects/home-food-05.jpg",
+        "/images/projects/home-food-06.jpg",
+        "/images/projects/home-food-07.jpg",
+        "/images/projects/home-food-08.jpg"
+      ],
+      "externalLinks": [],
+      "videos": [],
+      "sourceUrl": "https://www.callmedavy.com/portfolio/home-food",
+      "sourceType": "scraped",
+      "images_remote": [
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5a303dcf520e840001c3de07_5957c9abd2d3db52ae04fec9_L1001510.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5a303dcf01c1750001440e59_5957c9b05946be4b23b3d966_L1001511.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5a303dd201c1750001440e5d_5957c9c52afc715251b7956c_L1001517.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5957c9cf5946be4b23b3d971_L1001519.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5a303dcf5ab0fd0001b7985d_5957c9b873bd8e58912604c7_L1001515.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5a303dd074488100010108ae_5957c9bf73bd8e58912604c9_L1001516.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5a303dd75ab0fd0001b79865_5957c9ca92e3da584124d921_L1001518.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5957c99c73bd8e58912604c3_L1001509.jpg"
+      ]
+    },
+    {
+      "title": "Honey Grow",
+      "slug": "honey-grow",
+      "summary": "",
+      "description": "",
+      "year": "",
+      "tags": [],
+      "categories": [
+        "Commerce"
+      ],
+      "thumbnail": "/images/projects/honey-grow-01.jpg",
+      "images": [
+        "/images/projects/honey-grow-01.jpg",
+        "/images/projects/honey-grow-02.jpg",
+        "/images/projects/honey-grow-03.jpg",
+        "/images/projects/honey-grow-04.jpg",
+        "/images/projects/honey-grow-05.jpg",
+        "/images/projects/honey-grow-06.jpg",
+        "/images/projects/honey-grow-07.jpg"
+      ],
+      "externalLinks": [],
+      "videos": [],
+      "sourceUrl": "https://www.callmedavy.com/portfolio/honey-grow",
+      "sourceType": "scraped",
+      "images_remote": [
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62afee0a1036bfcefec6e50c_MitchMini_07-14-2018_034.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62afedb42452a5203850ab84_MitchMini_07-14-2018_046.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62afee110313824aed8c8872_MitchMini_07-14-2018_029.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62afee1935e2c8da33c4b1de_MitchMini_07-14-2018_035.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62afeda79b6a1ed3220f397a_MitchMini_07-14-2018_030.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62afee0d501088648b309e9b_MitchMini_07-14-2018_031.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62afee14d95a843d994390b8_MitchMini_07-14-2018_048.jpg"
+      ]
+    },
+    {
+      "title": "Ice Breakers",
+      "slug": "ice-breakers",
+      "summary": "",
+      "description": "",
+      "year": "",
+      "tags": [],
+      "categories": [
+        "Commerce"
+      ],
+      "thumbnail": "/images/projects/ice-breakers-01.jpg",
+      "images": [
+        "/images/projects/ice-breakers-01.jpg"
+      ],
+      "externalLinks": [],
+      "videos": [
+        "https://www.youtube.com/embed/qDq8q7BFmSU"
+      ],
+      "sourceUrl": "https://www.callmedavy.com/portfolio/ice-breakers",
+      "sourceType": "scraped",
+      "images_remote": [
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62b004367324d980399ec2e5_Screen%20Shot%202019-02-05%20at%2012.48.30%20PM%20copy%202.jpg"
+      ]
+    },
+    {
+      "title": "iGavel Auctions",
+      "slug": "igavel-auctions",
+      "summary": "",
+      "description": "",
+      "year": "",
+      "tags": [],
+      "categories": [
+        "Commerce"
+      ],
+      "thumbnail": "/images/projects/igavel-auctions-01.jpg",
+      "images": [
+        "/images/projects/igavel-auctions-01.jpg",
+        "/images/projects/igavel-auctions-02.jpg",
+        "/images/projects/igavel-auctions-03.jpg",
+        "/images/projects/igavel-auctions-04.jpg",
+        "/images/projects/igavel-auctions-05.jpg",
+        "/images/projects/igavel-auctions-06.jpg",
+        "/images/projects/igavel-auctions-07.jpg"
+      ],
+      "externalLinks": [],
+      "videos": [],
+      "sourceUrl": "https://www.callmedavy.com/portfolio/igavel-auctions",
+      "sourceType": "scraped",
+      "images_remote": [
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/59f1eb20422cdf000191bf2f_done.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/59f1eb2b422cdf000191bf33_FALL2017NOTE.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/59f1eb32422cdf000191bf39_59e10b077032510001bb02e0_4.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/59f1eb18422cdf000191bf2c_2.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/59f1eb230aad1d00010a3d22_lma.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/59f1eb30422cdf000191bf36_599739b68af4c70001018b73_2017-08-18.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/59f1eb35ffa06300013bb237_59e10acb4221ad0001bdd83a_2017-10-13.jpg"
+      ]
+    },
+    {
+      "title": "Junk Drawer",
+      "slug": "junk-drawer",
+      "summary": "",
+      "description": "",
+      "year": "",
+      "tags": [],
+      "categories": [
+        "Art"
+      ],
+      "thumbnail": "/images/projects/junk-drawer-01.jpg",
+      "images": [
+        "/images/projects/junk-drawer-01.jpg",
+        "/images/projects/junk-drawer-02.jpg",
+        "/images/projects/junk-drawer-03.jpg",
+        "/images/projects/junk-drawer-04.jpg",
+        "/images/projects/junk-drawer-05.jpg",
+        "/images/projects/junk-drawer-06.jpg",
+        "/images/projects/junk-drawer-07.jpg",
+        "/images/projects/junk-drawer-08.jpg"
+      ],
+      "externalLinks": [],
+      "videos": [],
+      "sourceUrl": "https://www.callmedavy.com/portfolio/junk-drawer",
+      "sourceType": "scraped",
+      "images_remote": [
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/59a6faf3145d0f0001043b9f_981828_10201790607191742_433238478_o.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5a021e84adac4d0001902b68_59f0a4578464770001a2e8e1_587b0c5deba8f3b705c9b0d1_BANNANA1.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587ae0e9346e85266cabfd7b_Mona_Lisa_(copy%2C_Hermitage)%20copy.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587b0c8c29772a4c23db0554_Mellado04.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/58b030fc0e83d6927df2d79f__P3M1151%20copy.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587ae0f4439eebf6699d210b_cv134%20copy.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587b0c7a280f99970516fd05_Smuggle.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587b0c66d8f163086cf22823_HABF.jpg"
+      ]
+    },
+    {
+      "title": "KitKat",
+      "slug": "kitkat",
+      "summary": "",
+      "description": "",
+      "year": "",
+      "tags": [
+        "kitkat"
+      ],
+      "categories": [
+        "Commerce"
+      ],
+      "thumbnail": "/images/projects/kitkat-01.jpg",
+      "images": [
+        "/images/projects/kitkat-01.jpg"
+      ],
+      "externalLinks": [
+        "https://twitter.com/hashtag/KitKatFlavors?src=hash&amp;ref_src=twsrc%5Etfw",
+        "https://t.co/QsBAb8IFOb",
+        "https://twitter.com/KitKat_US/status/1199741438436753408?ref_src=twsrc%5Etfw"
+      ],
+      "videos": [
+        "https://www.youtube.com/embed/Bm67PVbWjaw"
+      ],
+      "sourceUrl": "https://www.callmedavy.com/portfolio/kitkat",
+      "sourceType": "scraped",
+      "images_remote": [
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/631e26e1a0b432e0961fbb11_62b012071879d682feefd8b2_DSC00671-1%20copy.jpg"
+      ]
+    },
+    {
+      "title": "Malibu Rum",
+      "slug": "malibu-rum",
+      "summary": "",
+      "description": "",
+      "year": "",
+      "tags": [],
+      "categories": [
+        "Commerce"
+      ],
+      "thumbnail": "/images/projects/malibu-rum-01.png",
+      "images": [
+        "/images/projects/malibu-rum-01.png"
+      ],
+      "externalLinks": [],
+      "videos": [
+        "https://vimeo.com/128367293",
+        "https://player.vimeo.com/video/128367293"
+      ],
+      "sourceUrl": "https://www.callmedavy.com/portfolio/malibu-rum",
+      "sourceType": "scraped",
+      "images_remote": [
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587ae69069dd397d228dd5bc_ST_BF.png"
+      ]
+    },
+    {
+      "title": "Night",
+      "slug": "night",
+      "summary": "",
+      "description": "",
+      "year": "",
+      "tags": [],
+      "categories": [
+        "Art"
+      ],
+      "thumbnail": "/images/projects/night-01.jpg",
+      "images": [
+        "/images/projects/night-01.jpg",
+        "/images/projects/night-02.jpg",
+        "/images/projects/night-03.jpg",
+        "/images/projects/night-04.jpg",
+        "/images/projects/night-05.jpg",
+        "/images/projects/night-06.jpg",
+        "/images/projects/night-07.jpg",
+        "/images/projects/night-08.jpg"
+      ],
+      "externalLinks": [],
+      "videos": [],
+      "sourceUrl": "https://www.callmedavy.com/portfolio/night",
+      "sourceType": "scraped",
+      "images_remote": [
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587aff5a439eebf6699d3c85_mellado_d_night_3.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587aff6029772a4c23daf512_SDIM0034.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587aff77a5507b2c51e4bb8c_SDIM0038.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587aff7117bff618656bed5b_SDIM0037.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587aff6c439eebf6699d3c89_SDIM0036.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587aff36a126883e7fec7e04_mellado_d_night_1.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587aff6636d1c47874ca9552_SDIM0035.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/587aff508535ac566595bd7e_mellado_d_night_2.jpg"
+      ]
+    },
+    {
+      "title": "Recorded Transience",
+      "slug": "atemporal",
+      "summary": "",
+      "description": "",
+      "year": "",
+      "tags": [],
+      "categories": [
+        "Art"
+      ],
+      "thumbnail": "/images/projects/atemporal-01.jpg",
+      "images": [
+        "/images/projects/atemporal-01.jpg",
+        "/images/projects/atemporal-02.jpg",
+        "/images/projects/atemporal-03.jpg",
+        "/images/projects/atemporal-04.jpg",
+        "/images/projects/atemporal-05.jpg",
+        "/images/projects/atemporal-06.jpg",
+        "/images/projects/atemporal-07.jpg",
+        "/images/projects/atemporal-08.jpg"
+      ],
+      "externalLinks": [],
+      "videos": [],
+      "sourceUrl": "https://www.callmedavy.com/portfolio/atemporal",
+      "sourceType": "scraped",
+      "images_remote": [
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5ad7a99b001aa8c5434603f3_MELLADO_MFA_13.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5a303e3c2e860e0001dbaa95_59d04ac362a25200013c31b0_L1002140.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/59d04ab8a992ae00015f484d_L1002048.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5ad7a9aaa6722ad59cd723d1_MELLADO_MFA_18.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5a303e3a5ab0fd0001b798a3_59d04abffb0edc0001b4f83a_L1002019.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/59d04ac6fb0edc0001b4f83e_L1002044.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5ad7a9a756a6418dea704caa_MELLADO_MFA_17.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5ad7a9ad253e998e667bc2b7_MELLADO_MFA_20.jpg"
+      ]
+    },
+    {
+      "title": "Reese's Artwork",
+      "slug": "reeses-artwork",
+      "summary": "",
+      "description": "",
+      "year": "",
+      "tags": [],
+      "categories": [
+        "Commerce"
+      ],
+      "thumbnail": "/images/projects/reeses-artwork-01.jpg",
+      "images": [
+        "/images/projects/reeses-artwork-01.jpg",
+        "/images/projects/reeses-artwork-02.jpg",
+        "/images/projects/reeses-artwork-03.jpg",
+        "/images/projects/reeses-artwork-04.jpg",
+        "/images/projects/reeses-artwork-05.jpg",
+        "/images/projects/reeses-artwork-06.jpg",
+        "/images/projects/reeses-artwork-07.jpg"
+      ],
+      "externalLinks": [],
+      "videos": [],
+      "sourceUrl": "https://www.callmedavy.com/portfolio/reeses-artwork",
+      "sourceType": "scraped",
+      "images_remote": [
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62b004e7670924495819a37c_IMG_0289%20copy.JPG",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62b004f5b61c1713f6d79520_IMG_0290%20copy.JPG",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62b005017324d966129ec9bb_IMG_0315%20copy.JPG",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62b0228bd83107b496e28b62_Untitled_Artwork%20copy.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62b004ed1a672b553ebd5c0e_IMG_0288%20copy.JPG",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62b004fbb61c17733fd79523_IMG_0319%20copy.JPG",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62b004de67092450bc19a339_IMG_0287%20copy.JPG"
+      ]
+    },
+    {
+      "title": "Reese's x Cadbury Easter Cobranded 6 Sec Ad",
+      "slug": "reeses-x-cadbury-easter-cobranded-6-sec-ad",
+      "summary": "",
+      "description": "",
+      "year": "",
+      "tags": [
+        "cadbury"
+      ],
+      "categories": [
+        "Commerce"
+      ],
+      "thumbnail": "",
+      "images": [],
+      "externalLinks": [],
+      "videos": [
+        "https://www.youtube.com/embed/_tvQnH6x8EQ"
+      ],
+      "sourceUrl": "https://www.callmedavy.com/portfolio/reeses-x-cadbury-easter-cobranded-6-sec-ad",
+      "sourceType": "scraped",
+      "images_remote": []
+    },
+    {
+      "title": "Reeses",
+      "slug": "reeses",
+      "summary": "",
+      "description": "",
+      "year": "",
+      "tags": [
+        "reeses"
+      ],
+      "categories": [
+        "Commerce"
+      ],
+      "thumbnail": "/images/projects/reeses-01.jpg",
+      "images": [
+        "/images/projects/reeses-01.jpg",
+        "/images/projects/reeses-02.png",
+        "/images/projects/reeses-03.png",
+        "/images/projects/reeses-04.jpg",
+        "/images/projects/reeses-05.jpg"
+      ],
+      "externalLinks": [],
+      "videos": [],
+      "sourceUrl": "https://www.callmedavy.com/portfolio/reeses",
+      "sourceType": "scraped",
+      "images_remote": [
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62b007723249a94088b2183e_IMG_4319%20copy.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62b0077c7324d9dee59ee0d7_0_00_34000_93744_8_34000_93744_000_Shipper_Left.png",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62b0077f0cd76f60bf2b590a_CLUB_0_34000_85507_0_701_85507_001_Item_Left.png",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62b010132513a566c7efb2de_3%20copy.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62b0076fc5d9c16e557bacbc_IMG_4295%20copy.jpg"
+      ]
+    },
+    {
+      "title": "Reeses More",
+      "slug": "reeses-more",
+      "summary": "",
+      "description": "",
+      "year": "",
+      "tags": [
+        "reeses"
+      ],
+      "categories": [
+        "Commerce"
+      ],
+      "thumbnail": "/images/projects/reeses-more-01.jpg",
+      "images": [
+        "/images/projects/reeses-more-01.jpg",
+        "/images/projects/reeses-more-02.jpg",
+        "/images/projects/reeses-more-03.jpg",
+        "/images/projects/reeses-more-04.jpg",
+        "/images/projects/reeses-more-05.jpg",
+        "/images/projects/reeses-more-06.jpg",
+        "/images/projects/reeses-more-07.jpg",
+        "/images/projects/reeses-more-08.jpg"
+      ],
+      "externalLinks": [
+        "https://twitter.com/hashtag/NotSorry?src=hash&amp;ref_src=twsrc%5Etfw",
+        "https://twitter.com/hashtag/ComingMarch2019?src=hash&amp;ref_src=twsrc%5Etfw",
+        "https://t.co/ZGH6NKrV28",
+        "https://twitter.com/reeses/status/1058057507200028674?ref_src=twsrc%5Etfw"
+      ],
+      "videos": [],
+      "sourceUrl": "https://www.callmedavy.com/portfolio/reeses-more",
+      "sourceType": "scraped",
+      "images_remote": [
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62b007653249a9028db21816_DSC09866%20copy.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5e8c81716cd5642355ecce23_tossFor6.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62b010132513a566c7efb2de_3%20copy.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62b00756450de12763172ffa_IMG_0204%20copy.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5e8c827a7dc2fa7e20bb4fbf_DSC07627.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5e8c8298feefb70014059953_Chocotopia_11-10-18_53.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/5fdc238b24c54856c29cef58_DSC09783.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62b022990eca2575474637d6_ReesesLoadedFudge%20copy.jpg"
+      ]
+    },
+    {
+      "title": "Rolo Cookie 6 Sec",
+      "slug": "rolo-cookie-6-sec",
+      "summary": "",
+      "description": "",
+      "year": "",
+      "tags": [],
+      "categories": [
+        "Commerce"
+      ],
+      "thumbnail": "",
+      "images": [],
+      "externalLinks": [],
+      "videos": [
+        "https://www.youtube.com/embed/jISUQRGhe9g"
+      ],
+      "sourceUrl": "https://www.callmedavy.com/portfolio/rolo-cookie-6-sec",
+      "sourceType": "scraped",
+      "images_remote": []
+    },
+    {
+      "title": "Twitchcon with Hersheys & Reese's Pieces",
+      "slug": "twitchcon-with-hersheys-reeses-pieces",
+      "summary": "",
+      "description": "",
+      "year": "",
+      "tags": [
+        "hershey"
+      ],
+      "categories": [
+        "Commerce"
+      ],
+      "thumbnail": "/images/projects/twitchcon-with-hersheys-reeses-pieces-01.jpg",
+      "images": [
+        "/images/projects/twitchcon-with-hersheys-reeses-pieces-01.jpg",
+        "/images/projects/twitchcon-with-hersheys-reeses-pieces-02.jpg",
+        "/images/projects/twitchcon-with-hersheys-reeses-pieces-03.jpg",
+        "/images/projects/twitchcon-with-hersheys-reeses-pieces-04.jpg",
+        "/images/projects/twitchcon-with-hersheys-reeses-pieces-05.jpg",
+        "/images/projects/twitchcon-with-hersheys-reeses-pieces-06.jpg",
+        "/images/projects/twitchcon-with-hersheys-reeses-pieces-07.jpg"
+      ],
+      "externalLinks": [],
+      "videos": [],
+      "sourceUrl": "https://www.callmedavy.com/portfolio/twitchcon-with-hersheys-reeses-pieces",
+      "sourceType": "scraped",
+      "images_remote": [
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62afe6037324d9a1239da7ad_DSC01834.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62afe81e2ec6e7f1a08812f7_IMG_0254%20copy.JPG",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62afea6c80e099273e087f0d_DSC02356.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62afea6e0eca25cd0e449bab_DSC02480.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62afe8153568843dd4a5449e_IMG_0259%20copy.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62afea693249a9a642b14996_DSC02328.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/62afea6dd95a841cf3436b53_DSC02445.jpg"
+      ]
+    },
+    {
+      "title": "Twizzlers Evergreen",
+      "slug": "twizzlers-evergreen",
+      "summary": "",
+      "description": "",
+      "year": "",
+      "tags": [],
+      "categories": [
+        "Commerce"
+      ],
+      "thumbnail": "/images/projects/twizzlers-evergreen-01.jpeg",
+      "images": [
+        "/images/projects/twizzlers-evergreen-01.jpeg",
+        "/images/projects/twizzlers-evergreen-02.jpg",
+        "/images/projects/twizzlers-evergreen-03.jpg",
+        "/images/projects/twizzlers-evergreen-04.jpg"
+      ],
+      "externalLinks": [],
+      "videos": [],
+      "sourceUrl": "https://www.callmedavy.com/portfolio/twizzlers-evergreen",
+      "sourceType": "scraped",
+      "images_remote": [
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/630627e0632f6a79acb82a2d_Screen%20Shot%202021-06-16%20at%208.12.28%20PM.jpeg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/63062a612a6b7ac2c8d5306d_TwizzlersBanners_860x475.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/63062a64f75d08dcc9b632f9_TwizzlersBanners_970x250.jpg",
+        "https://cdn.prod.website-files.com/58771686b47d46640aaa11cb/63062a5fe59494d8a82d1676_HSY_Twizzlers_Twizzlers_Twizzlers%20National_OLV_Accordant_BNR_RM_300x250_NA_MovieNight_1111111.jpg"
+      ]
+    }
+  ],
+  "contact": {
+    "email": "hey@callmedavy.com",
+    "socials": [
+      {
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/in/davymellado/"
+      },
+      {
+        "label": "Substack",
+        "url": "https://davymellado.substack.com"
+      },
+      {
+        "label": "Fine Art America",
+        "url": "https://fineartamerica.com/profiles/davy-mellado"
+      }
+    ]
+  },
+  "provenance": {
+    "scraped_at": "2026-08-03",
+    "source_site": "https://callmedavy.webflow.io",
+    "notes": [
+      "Project titles, categories, images, and video embeds were scraped from portfolio detail and category pages.",
+      "Category page label overrides supply year info and cleaner display titles for People/Art projects.",
+      "Original portfolio pages had no long-form body text; project descriptions are empty by design and can be added via CMS.",
+      "Bio short/long is newly generated from the scraped bio blurb plus the user's known brand statement (marked bio.generated=true).",
+      "Chrome links (Google Fonts, Substack, Fine Art America) were pulled from per-project externalLinks and centralized in contact.socials."
+    ]
+  }
+}

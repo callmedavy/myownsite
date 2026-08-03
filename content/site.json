@@ -1,0 +1,49 @@
+{
+  "site": {
+    "title": "Davy Mellado",
+    "description": "Hey, I’m Davy. Come on in — this is my little corner of the internet.",
+    "source": "https://callmedavy.webflow.io",
+    "tagline": "Come on in.",
+    "categories": [
+      {
+        "key": "people",
+        "label": "People"
+      },
+      {
+        "key": "commerce",
+        "label": "Commerce"
+      },
+      {
+        "key": "art",
+        "label": "Art"
+      }
+    ],
+    "featured": [
+      "national-geographic-",
+      "christian-pulisic-partnership",
+      "olympian-katy-ledecky",
+      "a-study-in-fireworks",
+      "belief",
+      "uberfacts",
+      "cadbury",
+      "family-legacy"
+    ]
+  },
+  "contact": {
+    "email": "hey@callmedavy.com",
+    "socials": [
+      {
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/in/davymellado/"
+      },
+      {
+        "label": "Substack",
+        "url": "https://davymellado.substack.com"
+      },
+      {
+        "label": "Fine Art America",
+        "url": "https://fineartamerica.com/profiles/davy-mellado"
+      }
+    ]
+  }
+}

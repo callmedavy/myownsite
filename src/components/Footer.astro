@@ -1,0 +1,26 @@
+---
+import site from '../../content/site.json';
+const year = new Date().getFullYear();
+---
+<footer class="footer">
+  <div class="wrap">
+    <div class="row">
+      <div>
+        <h3>Thanks for stopping in.</h3>
+        <p class="mono small">Anytime you want to talk, I’m at</p>
+        <p class="mono small">
+          <a href={`mailto:${site.contact.email}`}>{site.contact.email}</a>
+        </p>
+      </div>
+      <div>
+        <p class="mono small mb-1">You can also find me around:</p>
+        <ul class="mono small" style="list-style:none; padding:0; margin:0; display:flex; gap:1rem; flex-wrap:wrap;">
+          {site.contact.socials.map((s) => (
+            <li><a href={s.url} rel="noopener noreferrer" target="_blank">{s.label}</a></li>
+          ))}
+        </ul>
+      </div>
+      <div class="mono small">© {year} Davy Mellado™</div>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,103 @@
+---
+// Scatter of intentional graphic motifs: smileys, runes, pixel skulls, ghosts.
+// Positions & rotations are seeded per-page via a prop so it feels intentional, not random.
+const { count = 8, seed = 'davy' } = Astro.props;
+
+function h(s) {
+  let x = 0; for (const c of s) x = (x * 31 + c.charCodeAt(0)) >>> 0; return x;
+}
+function rng(seedNum) {
+  let s = seedNum >>> 0;
+  return () => { s = (s * 1664525 + 1013904223) >>> 0; return s / 4294967296; };
+}
+const r = rng(h(seed));
+const items = [];
+const kinds = ['smiley', 'rune', 'skull', 'ghost', 'star', 'sparkle', 'heart', 'flower', 'arrow', 'lightning'];
+for (let i = 0; i < count; i++) {
+  items.push({
+    kind: kinds[Math.floor(r() * kinds.length)],
+    x: 3 + Math.floor(r() * 92),   // % from left
+    y: 3 + Math.floor(r() * 94),   // % from top
+    size: 26 + Math.floor(r() * 40),
+    rot: Math.floor(r() * 60) - 30,
+    color: ['#0a0a0a', '#ff2fa8', '#7cff3d', '#4dd7ff', '#b06bff', '#ff5a3c'][Math.floor(r() * 6)],
+    delay: (r() * 4).toFixed(2)
+  });
+}
+---
+<div class="motif-layer" aria-hidden="true">
+  {items.map((it) => (
+    <span
+      class="motif float"
+      style={`left:${it.x}%; top:${it.y}%; width:${it.size}px; height:${it.size}px; transform:rotate(${it.rot}deg); animation-delay:${it.delay}s; color:${it.color}`}
+    >
+      {it.kind === 'smiley' && (
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="100%" height="100%">
+          <circle cx="12" cy="12" r="10" fill="currentColor" opacity="0.14"/>
+          <circle cx="12" cy="12" r="10"/>
+          <circle cx="9" cy="10" r="1.2" fill="currentColor"/>
+          <circle cx="15" cy="10" r="1.2" fill="currentColor"/>
+          <path d="M8 14c1.2 2 2.6 3 4 3s2.8-1 4-3" stroke-linecap="round"/>
+        </svg>
+      )}
+      {it.kind === 'ghost' && (
+        <svg viewBox="0 0 24 24" fill="currentColor" width="100%" height="100%">
+          <path d="M12 2a8 8 0 0 0-8 8v10.5c0 .8.9 1.3 1.5.8L8 19l2.5 2c.3.3.7.3 1 0L14 19l2.5 2c.6.5 1.5 0 1.5-.7V10a8 8 0 0 0-8-8Zm-3 8a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Zm5 0a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Z"/>
+        </svg>
+      )}
+      {it.kind === 'skull' && (
+        <svg viewBox="0 0 16 16" width="100%" height="100%" style="image-rendering:pixelated" shape-rendering="crispEdges">
+          {/* Pixel skull built from 1x1 rects */}
+          {[
+            [4,2,8,1],[3,3,10,1],[2,4,12,2],[2,6,3,1],[6,6,4,1],[11,6,3,1],
+            [2,7,3,2],[6,7,4,2],[11,7,3,2],[2,9,12,1],[3,10,10,1],[4,11,2,1],
+            [7,11,2,1],[10,11,2,1],[5,12,1,1],[8,12,1,1],[11,12,1,1]
+          ].map(([x,y,w,h]) => (<rect x={x} y={y} width={w} height={h} fill="currentColor"/>))}
+        </svg>
+      )}
+      {it.kind === 'rune' && (
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="100%" height="100%" stroke-linecap="round">
+          {/* Cross-in-circle: Christian rune / chi-rho vibe */}
+          <circle cx="12" cy="12" r="9"/>
+          <path d="M12 3v18M3 12h18"/>
+          <path d="M8 8l8 8M16 8l-8 8" opacity="0.35"/>
+        </svg>
+      )}
+      {it.kind === 'star' && (
+        <svg viewBox="0 0 24 24" fill="currentColor" width="100%" height="100%">
+          <path d="M12 2l2.4 6.4L21 9.2l-5 4.4L17.5 21 12 17.3 6.5 21 8 13.6 3 9.2l6.6-.8L12 2z"/>
+        </svg>
+      )}
+      {it.kind === 'sparkle' && (
+        <svg viewBox="0 0 24 24" fill="currentColor" width="100%" height="100%">
+          <path d="M12 2c1 6 4 9 10 10-6 1-9 4-10 10-1-6-4-9-10-10 6-1 9-4 10-10z"/>
+        </svg>
+      )}
+      {it.kind === 'heart' && (
+        <svg viewBox="0 0 24 24" fill="currentColor" width="100%" height="100%">
+          <path d="M12 21s-7-4.5-9.5-9.5C1 8 3 4 6.5 4c2 0 3.5 1 5.5 3.2C14 5 15.5 4 17.5 4 21 4 23 8 21.5 11.5 19 16.5 12 21 12 21z"/>
+        </svg>
+      )}
+      {it.kind === 'flower' && (
+        <svg viewBox="0 0 24 24" fill="currentColor" width="100%" height="100%">
+          <circle cx="12" cy="6" r="3"/>
+          <circle cx="18" cy="12" r="3"/>
+          <circle cx="12" cy="18" r="3"/>
+          <circle cx="6" cy="12" r="3"/>
+          <circle cx="12" cy="12" r="2.2" fill="var(--yellow-hot)"/>
+        </svg>
+      )}
+      {it.kind === 'arrow' && (
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" width="100%" height="100%">
+          <path d="M3 12c4-6 10-6 16 0"/>
+          <path d="M14 6l5 6-5 6"/>
+        </svg>
+      )}
+      {it.kind === 'lightning' && (
+        <svg viewBox="0 0 24 24" fill="currentColor" width="100%" height="100%">
+          <path d="M13 2L4 14h6l-2 8 10-12h-6l1-8z"/>
+        </svg>
+      )}
+    </span>
+  ))}
+</div>

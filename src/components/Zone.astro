@@ -1,0 +1,40 @@
+---
+/**
+ * Zone — a modular room in Davy's World.
+ * Each zone is a punk-zine panel with a stamp, an eyebrow, a title, and free content.
+ *
+ * Props:
+ *  - stamp: short text badge, top-left (e.g. "ROOM 01")
+ *  - eyebrow: kicker line above title
+ *  - title: main heading
+ *  - variant: 'yellow' | 'ink' | 'pink' | 'lime' | 'sky' | 'violet' | 'paper'
+ *  - tilt: number (deg) — rotation applied to the zone card
+ *  - motifs: number — how many decorative motifs to seed in the background
+ *  - seed: string — deterministic seed for motif layout
+ *  - id: anchor id
+ */
+import Motifs from './Motifs.astro';
+const {
+  stamp,
+  eyebrow,
+  title,
+  variant = 'yellow',
+  tilt = 0,
+  motifs = 6,
+  seed = 'zone',
+  id,
+} = Astro.props;
+---
+<section class={`zone zone--${variant}`} id={id}>
+  <Motifs seed={seed} count={motifs} />
+  <div class="wrap zone-inner">
+    <div class="zone-card" style={tilt ? `transform: rotate(${tilt}deg)` : undefined}>
+      {stamp && <span class="zone-stamp">{stamp}</span>}
+      {eyebrow && <p class="eyebrow zone-eyebrow reveal">{eyebrow}</p>}
+      {title && <h2 class="zone-title reveal">{title}</h2>}
+      <div class="zone-body reveal">
+        <slot />
+      </div>
+    </div>
+  </div>
+</section>

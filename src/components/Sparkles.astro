@@ -1,0 +1,49 @@
+---
+// Cursor-following rainbow sparkle trail. Respects prefers-reduced-motion.
+---
+<script is:inline>
+(function () {
+  if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  const colors = ['#ff2fa8', '#ffe600', '#7cff3d', '#4dd7ff', '#b06bff', '#ff5a3c'];
+  let last = 0;
+  const spawn = (x, y) => {
+    const now = performance.now();
+    if (now - last < 26) return;
+    last = now;
+    const el = document.createElement('span');
+    el.className = 'sparkle';
+    const size = 8 + Math.random() * 14;
+    const rot = Math.random() * 360;
+    const color = colors[Math.floor(Math.random() * colors.length)];
+    el.innerHTML = `<svg viewBox="0 0 24 24" width="${size}" height="${size}" fill="${color}"><path d="M12 2c1 6 4 9 10 10-6 1-9 4-10 10-1-6-4-9-10-10 6-1 9-4 10-10z"/></svg>`;
+    el.style.left = (x - size / 2) + 'px';
+    el.style.top = (y - size / 2) + 'px';
+    el.style.transform = 'rotate(' + rot + 'deg) scale(1)';
+    el.style.transition = 'transform 700ms cubic-bezier(.2,.7,.1,1), opacity 700ms ease';
+    document.body.appendChild(el);
+    requestAnimationFrame(() => {
+      el.style.transform = 'rotate(' + (rot + 90) + 'deg) scale(0.2) translateY(-20px)';
+      el.style.opacity = '0';
+    });
+    setTimeout(() => el.remove(), 750);
+  };
+  window.addEventListener('pointermove', (e) => spawn(e.clientX, e.clientY), { passive: true });
+  // Also sparkle on click
+  window.addEventListener('click', (e) => {
+    for (let i = 0; i < 6; i++) {
+      setTimeout(() => spawn(e.clientX + (Math.random() * 40 - 20), e.clientY + (Math.random() * 40 - 20)), i * 40);
+    }
+  });
+
+  // Scroll reveal via IntersectionObserver
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        io.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.12 });
+  document.querySelectorAll('.reveal').forEach((el) => io.observe(el));
+})();
+</script>
