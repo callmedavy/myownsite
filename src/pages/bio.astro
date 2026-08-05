@@ -25,32 +25,233 @@ const paras = bio.long.split('\n\n');
   </section>
 
   <section class="section">
-    <div class="wrap" style="display:grid; grid-template-columns:minmax(0,1fr); gap:3rem; align-items:start;">
+    <div class="wrap bio-layout">
+      <div class="bio-rail reveal">
+        <figure class="headshot-frame">
+          <div class="headshot-tape" aria-hidden="true"></div>
+          <div class="headshot-photo">
+            <img
+              src="/images/about/davy-mellado-headshot.jpeg"
+              alt="Davy Mellado smiling at the camera"
+              width="3000"
+              height="3000"
+              loading="eager"
+              decoding="async"
+            />
+            <span class="frame-mark frame-mark-top" aria-hidden="true">+</span>
+            <span class="frame-mark frame-mark-bottom" aria-hidden="true">+</span>
+          </div>
+          <figcaption>
+            <span class="headshot-caption">Proof of life</span>
+            <span class="headshot-location">Media, PA · presently</span>
+          </figcaption>
+        </figure>
+
+        <aside class="bio-facts">
+          <p class="eyebrow mb-1">Things I’ve worked on</p>
+          <ul class="mono small">
+            <li>&middot; Photography for National Geographic</li>
+            <li>&middot; Creative work with The Hershey Company</li>
+            <li>&middot; Running the creative engine at UberFacts</li>
+            <li>&middot; Founding CLR Wear (custom-fit apparel)</li>
+            <li>&middot; Bias research at Johns Hopkins</li>
+            <li>&middot; Theater in college (still uses it)</li>
+            <li>&middot; Reading a lot of Dewey and West</li>
+          </ul>
+          <p class="mt-3 mb-1 eyebrow">Want to say hi?</p>
+          <p class="mono small">
+            <a class="link" href={`mailto:${site.contact.email}`}>{site.contact.email}</a>
+          </p>
+          <div class="mt-2">
+            {site.contact.socials.map((s) => (
+              <a class="chip" href={s.url} rel="noopener noreferrer" target="_blank">{s.label} &#8599;</a>
+            ))}
+          </div>
+        </aside>
+      </div>
+
       <article class="bio-body reveal">
         {paras.map((p) => <p>{p}</p>)}
       </article>
-
-      <aside class="reveal" style="border:3px solid var(--ink); background:var(--paper); box-shadow:var(--shadow-punch); padding:1.5rem;">
-        <p class="eyebrow mb-1">Things I’ve worked on</p>
-        <ul class="mono small" style="list-style:none; padding:0; margin:0; display:grid; gap:0.6rem">
-          <li>&middot; Photography for National Geographic</li>
-          <li>&middot; Creative work with The Hershey Company</li>
-          <li>&middot; Running the creative engine at UberFacts</li>
-          <li>&middot; Founding CLR Wear (custom-fit apparel)</li>
-          <li>&middot; Bias research at Johns Hopkins</li>
-          <li>&middot; Theater in college (still uses it)</li>
-          <li>&middot; Reading a lot of Dewey and West</li>
-        </ul>
-        <p class="mt-3 mb-1 eyebrow">Want to say hi?</p>
-        <p class="mono small">
-          <a class="link" href={`mailto:${site.contact.email}`}>{site.contact.email}</a>
-        </p>
-        <div class="mt-2">
-          {site.contact.socials.map((s) => (
-            <a class="chip" href={s.url} rel="noopener noreferrer" target="_blank">{s.label} &#8599;</a>
-          ))}
-        </div>
-      </aside>
     </div>
   </section>
 </Base>
+
+<style>
+  .bio-layout {
+    display: grid;
+    grid-template-columns: minmax(17rem, 0.72fr) minmax(0, 1.28fr);
+    gap: clamp(3rem, 7vw, 7rem);
+    align-items: start;
+  }
+
+  .bio-rail {
+    display: grid;
+    gap: clamp(2.5rem, 5vw, 4rem);
+  }
+
+  .headshot-frame {
+    position: relative;
+    isolation: isolate;
+    margin: 0 0 0 clamp(0rem, 1vw, 1rem);
+    padding: clamp(0.75rem, 2vw, 1.1rem);
+    background: var(--paper);
+    border: 3px solid var(--ink);
+    box-shadow: var(--shadow-punch-lg);
+    transform: rotate(-1.4deg);
+    transition: transform 180ms ease, box-shadow 180ms ease;
+  }
+
+  .headshot-frame::before {
+    content: '';
+    position: absolute;
+    inset: 1rem -1rem -1rem 1rem;
+    z-index: -1;
+    background: var(--pink);
+    border: 3px solid var(--ink);
+  }
+
+  .headshot-frame:hover {
+    transform: rotate(0deg) translate(-2px, -2px);
+    box-shadow: 13px 13px 0 var(--ink);
+  }
+
+  .headshot-photo {
+    position: relative;
+    overflow: hidden;
+    aspect-ratio: 1 / 1;
+    background: var(--ink);
+    border: 3px solid var(--ink);
+  }
+
+  .headshot-photo::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background-image: radial-gradient(rgba(255, 230, 0, 0.25) 0.7px, transparent 0.7px);
+    background-size: 5px 5px;
+    mix-blend-mode: screen;
+    opacity: 0.45;
+  }
+
+  .headshot-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 42%;
+    filter: saturate(0.92) contrast(1.06);
+    transition: transform 400ms cubic-bezier(.2, .8, .2, 1), filter 180ms ease;
+  }
+
+  .headshot-frame:hover img {
+    transform: scale(1.025);
+    filter: saturate(1.02) contrast(1.04);
+  }
+
+  .headshot-tape {
+    position: absolute;
+    top: -1.15rem;
+    left: 50%;
+    z-index: 3;
+    width: 42%;
+    height: 2.5rem;
+    background: rgba(77, 215, 255, 0.9);
+    border: 2px solid var(--ink);
+    box-shadow: 3px 3px 0 rgba(10, 10, 10, 0.35);
+    transform: translateX(-50%) rotate(2.5deg);
+    clip-path: polygon(2% 8%, 98% 0, 96% 92%, 3% 100%);
+  }
+
+  .frame-mark {
+    position: absolute;
+    z-index: 2;
+    display: grid;
+    place-items: center;
+    width: 2rem;
+    height: 2rem;
+    color: var(--yellow-hot);
+    background: var(--ink);
+    border: 2px solid var(--yellow-hot);
+    border-radius: 50%;
+    font-family: var(--font-mono);
+    font-size: 1.2rem;
+    line-height: 1;
+  }
+
+  .frame-mark-top { top: 0.75rem; right: 0.75rem; }
+  .frame-mark-bottom { bottom: 0.75rem; left: 0.75rem; }
+
+  .headshot-frame figcaption {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem 0.25rem 0.15rem;
+  }
+
+  .headshot-caption {
+    font-family: var(--font-serif);
+    font-size: clamp(1.3rem, 2.5vw, 2rem);
+    font-style: italic;
+    font-weight: 700;
+    line-height: 1;
+  }
+
+  .headshot-location {
+    max-width: 9rem;
+    font-family: var(--font-mono);
+    font-size: 0.62rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    line-height: 1.4;
+    text-align: right;
+    text-transform: uppercase;
+  }
+
+  .bio-facts {
+    padding: 1.5rem;
+    background: var(--paper);
+    border: 3px solid var(--ink);
+    box-shadow: var(--shadow-punch);
+    transform: rotate(0.5deg);
+  }
+
+  .bio-facts ul {
+    display: grid;
+    gap: 0.6rem;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  @media (min-width: 900px) {
+    .bio-rail {
+      position: sticky;
+      top: 7.5rem;
+    }
+  }
+
+  @media (max-width: 899px) {
+    .bio-layout {
+      grid-template-columns: minmax(0, 1fr);
+    }
+
+    .bio-rail {
+      grid-template-columns: minmax(0, 1fr) minmax(15rem, 0.8fr);
+      align-items: start;
+    }
+  }
+
+  @media (max-width: 680px) {
+    .bio-layout { gap: 3.5rem; }
+    .bio-rail { grid-template-columns: minmax(0, 1fr); }
+    .headshot-frame { margin-right: 0.75rem; }
+    .headshot-frame figcaption { align-items: center; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .headshot-frame,
+    .headshot-photo img { transition: none; }
+  }
+</style>
