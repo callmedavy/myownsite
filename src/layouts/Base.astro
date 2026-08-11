@@ -19,7 +19,7 @@ const pageDesc = description || site.site.description;
     <meta property="og:title" content={pageTitle} />
     <meta property="og:description" content={pageDesc} />
     {ogImage && <meta property="og:image" content={ogImage} />}
-    <meta name="theme-color" content="#ffe600" />
+    <meta name="theme-color" content="#ffcc34" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -30,7 +30,7 @@ const pageDesc = description || site.site.description;
     <style is:inline set:html={globalCss}></style>
   </head>
   <body>
-    <a href="#main" class="mono small" style="position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden" onfocus="this.style.cssText='position:fixed;top:8px;left:8px;background:#000;color:#ffe600;padding:8px 12px;z-index:9999;font-family:var(--font-mono)'">Skip to content</a>
+    <a href="#main" class="mono small" style="position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden" onfocus="this.style.cssText='position:fixed;top:8px;left:8px;background:#000;color:#ffcc34;padding:8px 12px;z-index:9999;font-family:var(--font-mono)'">Skip to content</a>
     <Nav current={current} />
     <main id="main">
       <slot />
