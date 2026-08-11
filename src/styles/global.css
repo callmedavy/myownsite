@@ -3,13 +3,13 @@
    ========================================================= */
 
 :root {
-  --yellow: #ffe600;
-  --yellow-hot: #fff300;
-  --yellow-deep: #ffce00;
+  --yellow: #ffcc34;
+  --yellow-hot: #ffdd5c;
+  --yellow-deep: #f5b60e;
   --ink: #0a0a0a;
   --ink-soft: #1a1a1a;
   --paper: #fffde5;
-  --pink: #ff2fa8;
+  --pink: #01bfb4;
   --lime: #7cff3d;
   --sky: #4dd7ff;
   --violet: #b06bff;
@@ -100,7 +100,7 @@ p { margin: 0 0 1em; }
 .btn:hover { transform: translate(-2px,-2px) rotate(-1deg); box-shadow: 8px 8px 0 var(--ink); }
 .btn:active { transform: translate(2px,2px); box-shadow: 2px 2px 0 var(--ink); }
 .btn.ghost { background: var(--yellow-hot); color: var(--ink); }
-.btn.ghost:hover { background: var(--pink); color: var(--paper); }
+.btn.ghost:hover { background: var(--pink); color: var(--ink); }
 
 /* ---------- Tag chips ---------- */
 .chip {
@@ -116,7 +116,7 @@ p { margin: 0 0 1em; }
   margin: 0 0.2rem 0.4rem 0;
   transform: rotate(-1deg);
 }
-.chip:nth-child(3n) { background: var(--pink); color: var(--paper); transform: rotate(1.5deg); }
+.chip:nth-child(3n) { background: var(--pink); color: var(--ink); transform: rotate(1.5deg); }
 .chip:nth-child(3n+1) { background: var(--lime); transform: rotate(-2deg); }
 .chip:nth-child(3n+2) { background: var(--sky); transform: rotate(1deg); }
 .chip[aria-pressed="true"] { background: var(--ink); color: var(--yellow-hot); }
@@ -283,7 +283,7 @@ p { margin: 0 0 1em; }
   display: flex; flex-direction: column;
 }
 .card:hover { transform: translate(-3px,-3px) rotate(-0.4deg); box-shadow: 10px 10px 0 var(--ink); }
-.card.pop-pink { background: var(--pink); color: var(--paper); }
+.card.pop-pink { background: var(--pink); color: var(--ink); }
 .card.pop-lime { background: var(--lime); }
 .card.pop-sky { background: var(--sky); }
 .card.pop-violet { background: var(--violet); color: var(--paper); }
@@ -323,7 +323,7 @@ p { margin: 0 0 1em; }
   border-bottom: 3px solid var(--ink);
 }
 .project-hero h1 { font-size: clamp(2.5rem, 8vw, 7rem); }
-.project-hero .kicker { display: inline-block; background: var(--pink); color: var(--paper); padding: 0.3rem 0.7rem; border: 2px solid var(--ink); font-family: var(--font-mono); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.15em; margin-bottom: 0.6rem; transform: rotate(-1.5deg); }
+.project-hero .kicker { display: inline-block; background: var(--pink); color: var(--ink); padding: 0.3rem 0.7rem; border: 2px solid var(--ink); font-family: var(--font-mono); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.15em; margin-bottom: 0.6rem; transform: rotate(-1.5deg); }
 
 .gallery { display: grid; gap: 1.25rem; grid-template-columns: 1fr; }
 .gallery figure { margin: 0; border: 3px solid var(--ink); background: var(--paper); box-shadow: var(--shadow-punch); overflow: hidden; }
@@ -466,7 +466,7 @@ p { margin: 0 0 1em; }
 .zone + .zone { border-top: 0; }
 .zone--yellow  { background: var(--yellow); color: var(--ink); }
 .zone--ink     { background: var(--ink); color: var(--yellow-hot); }
-.zone--pink    { background: var(--pink); color: var(--paper); }
+.zone--pink    { background: var(--pink); color: var(--ink); }
 .zone--lime    { background: var(--lime); color: var(--ink); }
 .zone--sky     { background: var(--sky); color: var(--ink); }
 .zone--violet  { background: var(--violet); color: var(--paper); }
@@ -541,7 +541,7 @@ p { margin: 0 0 1em; }
    ========================================================= */
 .love-banner {
   background: var(--pink);
-  color: var(--paper);
+  color: var(--ink);
   border-top: 3px solid var(--ink);
   border-bottom: 3px solid var(--ink);
   overflow: hidden;
@@ -606,8 +606,8 @@ p { margin: 0 0 1em; }
 .room:nth-child(4n+1) { background: var(--yellow-hot); }
 .room:nth-child(4n+2) { background: var(--lime); }
 .room:nth-child(4n+3) { background: var(--sky); }
-.room:nth-child(4n+4) { background: var(--pink); color: var(--paper); }
-.room:nth-child(4n+4) .room-num { background: var(--paper); color: var(--ink); }
+.room:nth-child(4n+4) { background: var(--pink); color: var(--ink); }
+.room:nth-child(4n+4) .room-num { background: var(--ink); color: var(--paper); }
 
 /* =========================================================
    MANIFESTO LIST — hand-numbered punk credo
